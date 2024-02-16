@@ -1,0 +1,10 @@
+@import "common_styles/index";
+@import "common_styles/initial";
+@import "common_styles/initial_specified_media";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
