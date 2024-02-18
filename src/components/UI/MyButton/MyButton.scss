@@ -12,8 +12,10 @@
     padding: 0px 20px;
     transition: all 0.6s ease-in-out 0s;
     background-color: transparent;
+    width: fit-content;
+    max-width: 300px;
 
-    .title {
+    .my_button_title {
         font-weight: 500;
         font-size: 16px;
         transition: inherit;
@@ -23,9 +25,26 @@
         &:hover {
             background-color: rgb(133, 76, 230);
 
-            .title {
+            .my_button_title {
                 color: rgb(255, 255, 255);
             }
+        }
+    }
+
+    &.active {
+        background-color: rgb(133, 76, 230);
+
+        .my_button_title {
+            color: rgb(255, 255, 255);
+        }
+    }
+
+    &.medium {
+        height: 62px;
+
+        .my_button_title {
+            font-size: 20px;
+            font-weight: 600;
         }
     }
 }
