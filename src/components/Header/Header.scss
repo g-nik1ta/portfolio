@@ -1,0 +1,63 @@
+@import "styles/common_styles/index";
+
+header {
+    width: 100%;
+    background-color: rgb(25, 25, 36);
+    height: 80px;
+    position: fixed;
+    top: 0px;
+    z-index: 10;
+    display: flex;
+
+    .inner {
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+
+        .logo {
+            margin-right: 6px;
+            display: flex;
+            align-items: center;
+
+            svg {
+                max-width: 48px;
+                max-height: 48px;
+
+                path {
+                    fill: #FFF;
+                }
+            }
+
+            .title {
+                padding: 0 4px;
+                font-size: 18px;
+                font-weight: bold;
+            }
+        }
+
+        nav {
+            margin: 0 6px;
+            gap: 32px;
+            display: flex;
+            justify-content: space-between;
+
+            .link_item {
+                color: rgb(242, 243, 244);
+                font-weight: 500;
+                transition: all 0.2s ease-in-out 0s;
+
+                @media (hover: hover) {
+                    &:hover {
+                        color: rgb(133, 76, 230);
+                    }
+                }
+            }
+        }
+
+        .my_button {
+            margin-left: 6px;
+        }
+    }
+}
