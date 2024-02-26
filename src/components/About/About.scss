@@ -1,10 +1,10 @@
 @import "styles/common_styles/index";
 
 .about {
-    background-color: rgb(28, 28, 39);
+    background-color: rgb(9, 9, 23);
     width: 100%;
     overflow-x: hidden;
-    clip-path: polygon(0px 0px, 100% 0px, 100% 100%, 70% 95%, 0px 100%);
+    // clip-path: polygon(0px 0px, 100% 0px, 100% 100%, 70% 95%, 0px 100%);
 
     .inner {
         padding: 80px 30px;

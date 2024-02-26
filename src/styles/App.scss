@@ -7,7 +7,7 @@
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
-    font-family: Poppins,sans-serif;
+    font-family: Poppins, sans-serif;
 
     &::-webkit-scrollbar {
         width: 4px;
@@ -24,7 +24,7 @@
 }
 
 #root {
-    background-color: rgb(28, 28, 39);
+    background-color: rgb(9, 9, 23);
     min-height: 100vh;
     overflow-x: hidden;
 }
@@ -40,10 +40,29 @@
 
 .container_box {
     max-width: 1200px;
-    padding: 0 24px;
-    margin:  0 auto;
+    padding-left: 24px;
+    padding-right: 24px;
+    margin: 0 auto;
 }
 
 main {
     margin-top: 80px;
+    background-color: rgb(9, 9, 23);
+}
+
+section {
+    .page_title {
+        font-size: 52px;
+        text-align: center;
+        font-weight: 600;
+        margin-top: 20px;
+        color: rgb(242, 243, 244);
+    }
+
+    .page_subtitle {
+        font-size: 18px;
+        text-align: center;
+        font-weight: 600;
+        color: rgb(177, 178, 179);
+    }
 }
