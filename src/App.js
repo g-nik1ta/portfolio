@@ -1,4 +1,5 @@
 import About from "components/About/About";
+import Experience from "components/Experience/Experience";
 import Header from "components/Header/Header";
 import Skills from "components/Skills/Skills";
 import React from "react";
@@ -10,7 +11,10 @@ function App() {
             <Header />
             <main>
                 <About />
-                <Skills />
+                <div className="skills-experience">
+                    <Skills />
+                    <Experience />
+                </div>
             </main>
         </div>
     );

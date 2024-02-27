@@ -4,7 +4,7 @@ import { backendLogo, frontendLogo, othersLogo } from 'constants/skills';
 
 const Skills = () => {
     return (
-        <section className='skills container_box'>
+        <section className='skills_section container_box'>
             <h1 className="page_title">Skills</h1>
             <p className="page_subtitle">
                 Here are some of my skills on which I have been working on for the past 3 years.

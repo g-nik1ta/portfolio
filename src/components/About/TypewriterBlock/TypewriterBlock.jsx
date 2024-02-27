@@ -5,7 +5,7 @@ const TypewriterBlock = () => {
     return (
         <Typewriter
             options={{
-                strings: ['Programmer', 'Full Stack Developer', 'Frontend Developmenter'],
+                strings: ['Programmer', 'Full Stack Developer', 'Frontend Engineer'],
                 autoStart: true,
                 loop: true,
                 pauseFor: 2500,

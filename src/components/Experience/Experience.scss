@@ -1,0 +1,182 @@
+@import "styles/common_styles/index";
+
+.experience_section {
+    .experience_line {
+        margin-top: 52px;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        position: relative;
+
+        &::before {
+            content: '';
+            height: 100%;
+            width: 4px;
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            background-color: #FFF;
+        }
+
+        .experience_item:nth-of-type(even) {
+            flex-direction: row-reverse;
+
+            .info_card::after {
+                left: -14px;
+                transform: initial;
+            }
+
+            .logo-date {
+                justify-content: end;
+
+                span {
+                    margin-right: -16px;
+                    margin-left: initial;
+                }
+            }
+        }
+
+        .experience_item:last-of-type {
+            margin-bottom: 12px;
+        }
+
+        .experience_item {
+            padding: 32px 0;
+            margin-bottom: 64px;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            gap: 140px;
+
+            .info_card, .logo-date {
+                max-width: calc(50% - 70px);
+                width: 100%;
+            }
+
+            .info_card {
+                display: flex;
+                flex-direction: column;
+                background: rgba(17, 25, 40, 0.83);
+                color: rgb(255, 255, 255);
+                box-shadow: rgba(23, 92, 230, 0.15) 0px 4px 24px;
+                border: 1px solid rgba(255, 255, 255, 0.125);
+                border-radius: 6px;
+                padding: 24px;
+                position: relative;
+
+                &::after {
+                    content: '';
+                    position: absolute;
+                    top: 24px;
+                    left: 100%;
+                    border: 7px solid #0000;
+                    border-right: 7px solid rgba(255, 255, 255, 0.3);
+                    transform: rotate(180deg);
+                }
+
+                .head {
+                    display: flex;
+                    margin-bottom: 12px;
+
+                    .company_logo {
+                        width: 60px;
+                        height: 60px;
+                        padding: 4px;
+                        border-radius: 10px;
+                        overflow: hidden;
+                        margin-top: 4px;
+                        background-color: #FFF;
+                        margin-right: 12px;
+
+                        img {
+                            width: 100%;
+                            height: 100%;
+                            object-fit: contain;
+                        }
+                    }
+
+                    .job_title {
+                        font-size: 18px;
+                        color: rgba(242, 243, 244, 0.6);
+                    }
+
+                    .company_name {
+                        font-size: 14px;
+                        color: rgba(177, 178, 179, 0.6);
+                    }
+
+                    .date {
+                        font-size: 12px;
+                        color: rgba(177, 178, 179, 0.5);
+                    }
+                }
+
+                .description {
+                    font-size: 15px;
+                    font-weight: 400;
+                    color: rgba(242, 243, 244, 0.6);
+                    margin-bottom: 10px;
+                }
+
+                .skills {
+                    display: flex;
+
+                    b {
+                        margin-right: 12px;
+                        font-size: 15px;
+                        color: rgba(242, 243, 244, 0.6);
+                    }
+
+                    ul {
+                        display: flex;
+                        flex-wrap: wrap;
+                        gap: 8px;
+
+                        li {
+                            font-size: 15px;
+                            font-weight: 400;
+                            color: rgba(242, 243, 244, 0.6);
+
+                            &::before {
+                                content: '• ';
+                            }
+                        }
+                    }
+                }
+            }
+
+            .logo-date {
+                padding: 20px 0;
+                display: flex;
+                align-items: center;
+
+                .logo_wrapper {
+                    padding: 4px;
+                    position: absolute;
+                    left: 50%;
+                    transform: translateX(-50%);
+                    width: 60px;
+                    height: 60px;
+                    border-radius: 50%;
+                    overflow: hidden;
+                    background-color: #FFF;
+                    box-shadow: 0 0 0 4px #fff, inset 0 2px 0 #00000014, 0 3px 0 4px #0000000d;
+                    
+                    img {
+                        width: 100%;
+                        height: 100%;
+                        object-fit: contain;
+                    }
+                }
+
+                .date {
+                    margin-left: -16px;
+                    font-weight: 500;
+                    opacity: .7;
+                }
+            }
+        }
+    }
+}
