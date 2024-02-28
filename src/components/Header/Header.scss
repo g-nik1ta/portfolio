@@ -2,7 +2,7 @@
 
 header {
     width: 100%;
-    background-color: rgb(9, 9, 23);
+    background-color: $color-black;
     height: 80px;
     position: fixed;
     top: 0px;
@@ -43,13 +43,13 @@ header {
             justify-content: space-between;
 
             .link_item {
-                color: rgb(242, 243, 244);
+                color: $color-light;
                 font-weight: 500;
                 transition: all 0.2s ease-in-out 0s;
 
                 @media (hover: hover) {
                     &:hover {
-                        color: rgb(133, 76, 230);
+                        color: $color-blue;
                     }
                 }
             }

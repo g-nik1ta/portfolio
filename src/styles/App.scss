@@ -24,18 +24,23 @@
 }
 
 #root {
-    background-color: rgb(9, 9, 23);
     min-height: 100vh;
     overflow-x: hidden;
 }
 
 .App {
-    // background: linear-gradient(38.73deg, rgba(204, 0, 187, 0.15) 0%, rgba(201, 32, 184, 0) 50%), linear-gradient(141.27deg, rgba(0, 70, 209, 0) 50%, rgba(0, 70, 209, 0.15) 100%);
     color: #fff;
-    // clip-path: polygon(0px 0px, 100% 0px, 100% 100%, 30% 98%, 0px 100%);
     display: flex;
     flex-direction: column;
-    min-height: 1500px;
+}
+
+main {
+    margin-top: 80px;
+    background-color: $color-black;
+}
+
+section {
+    padding-bottom: 100px;
 }
 
 .container_box {
@@ -45,34 +50,8 @@
     margin: 0 auto;
 }
 
-main {
-    margin-top: 80px;
-    background-color: rgb(9, 9, 23);
-
-    .skills-experience {
-        padding-bottom: 16px;
-        background: linear-gradient(38.73deg, rgba(204, 0, 187, 0.15) 0%, rgba(201, 32, 184, 0) 50%), linear-gradient(141.27deg, rgba(0, 70, 209, 0) 50%, rgba(0, 70, 209, 0.15) 100%);
-        clip-path: polygon(0px 0px, 100% 0px, 100% 100%, 30% 95%, 0px 100%);
-    }
-}
-
-section {
-    &.container_box {
-        padding-bottom: 100px;
-    }
-
-    .page_title {
-        font-size: 52px;
-        text-align: center;
-        font-weight: 600;
-        margin-top: 20px;
-        color: rgb(242, 243, 244);
-    }
-
-    .page_subtitle {
-        font-size: 18px;
-        text-align: center;
-        font-weight: 600;
-        color: rgb(177, 178, 179);
-    }
+.polygon-gradient_background {
+    padding-bottom: 16px;
+    background: linear-gradient(38.73deg, rgba(204, 0, 187, 0.15) 0%, rgba(201, 32, 184, 0) 50%), linear-gradient(141.27deg, rgba(0, 70, 209, 0) 50%, rgba(0, 70, 209, 0.15) 100%);
+    clip-path: polygon(0px 0px, 100% 0px, 100% 100%, 30% 95%, 0px 100%);
 }

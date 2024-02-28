@@ -1,5 +1,6 @@
 import React from 'react';
 import "./Experience.scss";
+import SectionHead from 'components/SectionHead/SectionHead';
 
 const Experience = () => {
     const companies = [
@@ -33,10 +34,10 @@ const Experience = () => {
 
     return (
         <section className='experience_section container_box'>
-            <h1 className="page_title">Experience</h1>
-            <p className="page_subtitle">
-                My work experience as a software engineer and working on different companies and projects.
-            </p>
+            <SectionHead
+                title="Experience"
+                subtitle="My work experience as a software engineer and working on different companies and projects."
+            />
             <div className="experience_line">
                 {
                     companies.map(company =>

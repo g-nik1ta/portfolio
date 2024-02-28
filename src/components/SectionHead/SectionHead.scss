@@ -1,0 +1,16 @@
+@import "styles/common_styles/index";
+
+.section_title {
+    font-size: 52px;
+    text-align: center;
+    font-weight: 600;
+    margin-top: 20px;
+    color: $color-light;
+}
+
+.section_subtitle {
+    font-size: 18px;
+    text-align: center;
+    font-weight: 600;
+    color: $color-grey;
+}
