@@ -1,0 +1,21 @@
+@import "styles/common_styles/index";
+
+.switch_block {
+    display: flex;
+
+    &>* {
+        border-radius: 0;
+
+        &:first-of-type {
+            border-radius: 12px 0 0 12px;
+        }
+    
+        &:last-of-type {
+            border-radius: 0 12px 12px 0;
+        }
+    }
+
+    .my_button span {
+        text-transform: uppercase;
+    }
+}
