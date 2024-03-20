@@ -1,4 +1,5 @@
 import About from "components/About/About";
+import Education from "components/Education/Education";
 import Experience from "components/Experience/Experience";
 import Header from "components/Header/Header";
 import ModalProject from "components/Modal/ModalProject/ModalProject";
@@ -19,7 +20,10 @@ function App() {
                     <Skills />
                     <Experience />
                 </div>
-                <Project />
+                <div className="polygon-gradient_background">
+                    <Project />
+                    <Education />
+                </div>
             </main>
         </div>
     );

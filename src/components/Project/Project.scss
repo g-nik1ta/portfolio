@@ -8,6 +8,7 @@
 
         .my_button {
             &.active {
+                border: 1.8px solid $color-blue;
                 background-color: rgba(132, 76, 230, 0.35);
 
                 span {

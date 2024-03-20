@@ -37,7 +37,6 @@
 
     &.active {
         border: none;
-        box-shadow: rgb(31, 38, 52) 20px 20px 60px, rgb(31, 38, 52) -20px -20px 60px;
         background-color: $color-blue;
 
         @media (hover: hover) {

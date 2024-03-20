@@ -36,7 +36,7 @@ const Project = () => {
     }
 
     return (
-        <section className='project_section container_box'>
+        <section className='project_section container_box' id='projects'>
             <SectionHead
                 title="Projects"
                 subtitle="I have worked on a wide range of projects. From web apps to android apps. Here are some of my projects."

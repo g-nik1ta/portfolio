@@ -12,11 +12,11 @@ const Header = () => {
                     <span className="title">Portfolio</span>
                 </div>
                 <nav>
-                    <a className='link_item' href="">About</a>
-                    <a className='link_item' href="">Skills</a>
-                    <a className='link_item' href="">Experience</a>
-                    <a className='link_item' href="">Projects</a>
-                    <a className='link_item' href="">Education</a>
+                    <a className='link_item' href="#about">About</a>
+                    <a className='link_item' href="#skills">Skills</a>
+                    <a className='link_item' href="#experience">Experience</a>
+                    <a className='link_item' href="#projects">Projects</a>
+                    <a className='link_item' href="#education">Education</a>
                 </nav>
                 <MyButton>
                     GitHub Profile

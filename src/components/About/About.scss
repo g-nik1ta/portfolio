@@ -43,6 +43,7 @@
 
             .my_button {
                 width: 100%;
+                box-shadow: rgb(31, 38, 52) 20px 20px 60px, rgb(31, 38, 52) -20px -20px 60px;
 
                 @media (hover: hover) {
                     &:hover {

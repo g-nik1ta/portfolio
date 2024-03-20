@@ -6,7 +6,7 @@ import AboutAnimate from 'svg/AboutAnimate';
 
 const About = () => {
     return (
-        <section className='about'>
+        <section className='about' id='about'>
             <div className='container_box flex inner space_between'>
                 <div className="info_wrapper half_width">
                     <span className="title">
