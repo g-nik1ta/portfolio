@@ -43,6 +43,13 @@
 
             .my_button {
                 width: 100%;
+
+                @media (hover: hover) {
+                    &:hover {
+                        transform: scale(1.07);
+                        background-color: $color-blue;
+                    }
+                }
             }
         }
 

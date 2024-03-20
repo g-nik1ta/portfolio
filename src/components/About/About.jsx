@@ -20,7 +20,7 @@ const About = () => {
                     <p className="text">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur atque nostrum fuga odit odio architecto et beatae, facilis aliquam officia magnam aut ab quae esse placeat dolor culpa hic non explicabo sapiente animi ex eaque autem! Ratione nulla iste inventore accusamus veritatis dolor quas incidunt rem odio, excepturi aspernatur, fugiat consectetur nam laborum error reiciendis?
                     </p>
-                    <MyButton className="active medium">
+                    <MyButton active={true} className="medium">
                         Check Resume
                     </MyButton>
                 </div>

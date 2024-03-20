@@ -1,0 +1,68 @@
+@import "styles/common_styles/index";
+
+.modal-project {
+    .img_wrapper {
+        height: 350px;
+        margin-top: 20px;
+        max-width: 100%;
+        display: flex;
+        border-radius: 12px;
+        overflow: hidden;
+        box-shadow: rgba(0, 0, 0, 0.3) 0px 0px 10px 0px;
+
+        img {
+            width: 100%;
+            height: auto;
+            object-fit: contain;
+        }
+    }
+
+    .project_name {
+        margin-top: 8px;
+        font-size: 28px;
+        font-weight: 600;
+        color: rgb(242, 243, 244);
+    }
+
+    .duration_work {
+        margin: 2px 0;
+        font-size: 16px;
+        font-weight: 400;
+        color: rgb(177, 178, 179);
+    }
+
+    .technologies {
+        display: flex;
+        margin: 10px 0;
+        width: 100%;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 8px;
+
+        li {
+            font-size: 14px;
+            font-weight: 400;
+            color: $color-blue;
+            background-color: rgba(133, 76, 230, 0.125);
+            padding: 4px 8px;
+            border-radius: 8px;
+        }
+    }
+
+    .project_description {
+        min-height: 120px;
+        padding-right: 4px;
+        max-height: 180px;
+        overflow-y: auto;
+        font-weight: 400;
+        color: rgb(242, 243, 244);
+        margin-top: 8px;
+    }
+
+    .my_button {
+        min-height: 50px;
+        width: 100%;
+        max-width: 100%;
+        margin-top: 8px;
+    }
+}

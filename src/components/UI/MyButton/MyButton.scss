@@ -15,6 +15,10 @@
     width: fit-content;
     max-width: 300px;
 
+    &.rectangle {
+        border-radius: 8px;
+    }
+
     .my_button_title {
         font-weight: 500;
         font-size: 16px;
@@ -32,12 +36,13 @@
     }
 
     &.active {
+        border: none;
         box-shadow: rgb(31, 38, 52) 20px 20px 60px, rgb(31, 38, 52) -20px -20px 60px;
         background-color: $color-blue;
 
         @media (hover: hover) {
             &:hover {
-                transform: scale(1.07);
+                background-color: rgba(133, 76, 230, 0.6);
             }
         }
 

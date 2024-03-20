@@ -1,9 +1,37 @@
 import React from 'react';
 import "./MyButton.scss";
 
-const MyButton = ({ children, ...props }) => {
+const MyButton = ({ children, active = false, rectangle, href, ...props }) => {
+    if (href) {
+        return (
+            <a
+                {...props}
+                href={href}
+                target='_blank'
+                className={
+                    'my_button'
+                    + (" " + props.className)
+                    + (active ? ' active' : "")
+                    + (rectangle ? ' rectangle' : "")
+                }
+            >
+                <span className='my_button_title'>
+                    {children}
+                </span>
+            </a>
+        )
+    }
+
     return (
-        <button {...props} className={'my_button ' + props.className}>
+        <button
+            {...props}
+            className={
+                'my_button'
+                + (" " + props.className)
+                + (active ? ' active' : "")
+                + (rectangle ? ' rectangle' : "")
+            }
+        >
             <span className='my_button_title'>
                 {children}
             </span>
