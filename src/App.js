@@ -1,4 +1,5 @@
 import About from "components/About/About";
+import Contacts from "components/Contacts/Contacts";
 import Education from "components/Education/Education";
 import Experience from "components/Experience/Experience";
 import Header from "components/Header/Header";
@@ -23,6 +24,7 @@ function App() {
                 <div className="polygon-gradient_background">
                     <Project />
                     <Education />
+                    <Contacts />
                 </div>
             </main>
         </div>
