@@ -58,6 +58,7 @@ section {
     margin-bottom: 100px;
 
     &:last-of-type {
+        margin-bottom: 0;
         clip-path: polygon(0px 0px, 100% 0px, 100% 100%, 30% 98%, 0px 100%);
     }
 }
