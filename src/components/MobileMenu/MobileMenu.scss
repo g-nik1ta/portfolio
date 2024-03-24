@@ -37,6 +37,12 @@ $animation-timing-function: cubic-bezier(0.55, 0.04, 0.05, 0.97);
             transition: all $animation-duration-open * (5 * 0.3) $animation-timing-function 1.4s;
         }
 
+        .socials_wrapper {
+            top: 0;
+            opacity: 1;
+            transition: all $animation-duration-open * (5 * 0.3) $animation-timing-function 1.7s;
+        }
+
         .item-list .nav-item {
             @for $i from 1 through 6 {
                 &:nth-of-type(#{$i}) .text {
@@ -81,17 +87,25 @@ $animation-timing-function: cubic-bezier(0.55, 0.04, 0.05, 0.97);
     }
 
     .my_button {
+        margin-bottom: 16px;
         height: 48px;
         padding: 0 24px;
-        position: relative;
         width: fit-content;
+
+        opacity: 0;
+        top: -36px;
+        position: relative;
+        transition: all $animation-duration-close $animation-timing-function;
 
         .my_button_title {
             font-size: 16px;
         }
+    }
 
+    .socials_wrapper {
         opacity: 0;
-        top: -36px;
+        top: -32px;
+        position: relative;
         transition: all $animation-duration-close $animation-timing-function;
     }
 }

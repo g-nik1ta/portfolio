@@ -36,35 +36,6 @@ footer {
         }
     }
 
-    .socials_wrapper {
-        margin: 12px 0;
-        display: flex;
-        gap: 20px;
-        align-items: center;
-
-        a {
-            display: flex;
-
-            svg {
-                width: 28px;
-                height: 28px;
-                transition: all .2s ease-in-out;
-
-                path {
-                    transition: inherit;
-                }
-            }
-
-            @media (hover: hover) {
-                &:hover svg {
-                    path {
-                        fill: $color-blue;
-                    }
-                }
-            }
-        }
-    }
-
     .copyright {
         margin-top: 12px;
         font-size: 14px;

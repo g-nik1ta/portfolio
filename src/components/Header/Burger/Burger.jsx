@@ -10,7 +10,7 @@ const Burger = ({ burger, setBurger }) => {
     return (
         <div
             onClick={toggleBurger}
-            className={"burger_wrapper hide flex-if_lg_size" + (burger ? " open" : "")}
+            className={"burger_wrapper hide flex-if_md_size" + (burger ? " open" : "")}
         >
             <div className="burger">
                 <i></i>

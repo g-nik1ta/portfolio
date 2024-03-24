@@ -1,6 +1,7 @@
 import React from 'react';
 import './MobileMenu.scss';
 import MyButton from 'components/UI/MyButton/MyButton';
+import Socials from 'components/Socials/Socials';
 
 const MobileMenu = ({ burger, setBurger }) => {
     const closeBurger = () => {
@@ -31,6 +32,7 @@ const MobileMenu = ({ burger, setBurger }) => {
             <MyButton>
                 GitHub Profile
             </MyButton>
+            <Socials />
         </div>
     )
 }

@@ -7,9 +7,10 @@ header {
     top: 0px;
     display: flex;
     z-index: 10;
+    background-color: $color-black;
+    box-shadow: rgba(23, 92, 230, 0.15) 0px 4px 96px;
 
     .inner {
-        box-shadow: rgba(23, 92, 230, 0.15) 0px 4px 96px;
         background-color: $color-black;
         display: flex;
         align-items: center;
@@ -108,14 +109,18 @@ header {
 }
 
 @media screen and (max-width: $md-size-max-width) {
-    header .inner .logo {
-        svg {
-            max-width: 44px;
-            max-height: 44px;
-        }
+    header .inner {
+        box-shadow: rgba(23, 92, 230, 0.15) 0px 4px 96px;
 
-        .title {
-            font-size: 18px;
+        .logo {
+            svg {
+                max-width: 44px;
+                max-height: 44px;
+            }
+
+            .title {
+                font-size: 18px;
+            }
         }
     }
 }
