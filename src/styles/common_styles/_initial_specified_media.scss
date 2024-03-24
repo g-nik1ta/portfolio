@@ -183,6 +183,10 @@
         flex-direction: column;
     }  
 
+    .column_reverse-if_md_size {
+        flex-direction: column-reverse;
+    }  
+
     .justify_center-if_md_size {
         justify-content: center;
     }
@@ -197,6 +201,10 @@
 
     .align_center-if_md_size {
         align-items: center;
+    }
+
+    .text_center-if_md_size {
+        text-align: center;
     }
 }
 

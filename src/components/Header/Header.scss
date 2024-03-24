@@ -2,18 +2,20 @@
 
 header {
     width: 100%;
-    background-color: $color-black;
     height: 80px;
     position: fixed;
     top: 0px;
-    z-index: 10;
     display: flex;
+    z-index: 10;
 
     .inner {
+        box-shadow: rgba(23, 92, 230, 0.15) 0px 4px 96px;
+        background-color: $color-black;
         display: flex;
         align-items: center;
         justify-content: space-between;
         width: 100%;
+        z-index: 10;
 
         .logo {
             margin-right: 6px;
@@ -39,7 +41,6 @@ header {
         nav {
             margin: 0 6px;
             gap: 32px;
-            display: flex;
             justify-content: space-between;
 
             .link_item {
@@ -57,6 +58,64 @@ header {
 
         .my_button {
             margin-left: 6px;
+        }
+    }
+
+    .background {
+        position: fixed;
+        width: 100vw;
+        height: 100vh;
+        left: 0;
+        top: 0;
+        z-index: 8;
+        opacity: 0;
+        background-color: #000;
+        visibility: hidden;
+        transition: all .85s ease-in-out;
+
+        &.active {
+            visibility: visible;
+            opacity: .5;
+        }
+    }
+}
+
+@media screen and (max-width: $lg-size-max-width) {
+    header {
+        height: 64px;
+
+        .inner {
+            .logo {
+                svg {
+                    max-width: 36px;
+                    max-height: 36px;
+                }
+
+                .title {
+                    font-size: 16px;
+                }
+            }
+
+            nav {
+                gap: 20px;
+
+                .link_item {
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: $md-size-max-width) {
+    header .inner .logo {
+        svg {
+            max-width: 44px;
+            max-height: 44px;
+        }
+
+        .title {
+            font-size: 18px;
         }
     }
 }

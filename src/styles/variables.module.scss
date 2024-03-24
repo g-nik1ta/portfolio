@@ -1,11 +1,10 @@
 $xxl-size-min-width: 1537px;
 $xl-size-max-width: 1536px;
+$lg-size-max-width: 1024px;
+$md-size-max-width: 768px;
+$sm-size-max-width: 420px;
 
-$lg-size-max-width: 1350px;
-
-$md-size-max-width: 1024px;
-$sm-size-max-width: 768px;
-$xs-size-max-width: 420px; 
+$xs-size-max-width: 360px; 
 
 
 
@@ -13,10 +12,9 @@ $xs-size-max-width: 420px;
 :export {
     xxlSizeMinWidth: 1537;
     xlSizeMaxWidth: 1536;
-
-    lgSizeMaxWidth: 1350;
-
-    mdSizeMaxWidth: 1024;
-    smSizeMaxWidth: 768;
-    xsSizeMaxWidth: 420;
+    lgSizeMaxWidth: 1024;
+    mdSizeMaxWidth: 768;
+    smSizeMaxWidth: 420;
+    
+    xsSizeMaxWidth: 360;
 }

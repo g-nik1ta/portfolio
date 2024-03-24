@@ -10,7 +10,7 @@ const MyButton = ({ children, active = false, rectangle, href, ...props }) => {
                 target='_blank'
                 className={
                     'my_button'
-                    + (" " + props.className)
+                    + (props.className ? ` ${props.className}` : "")
                     + (active ? ' active' : "")
                     + (rectangle ? ' rectangle' : "")
                 }
@@ -27,7 +27,7 @@ const MyButton = ({ children, active = false, rectangle, href, ...props }) => {
             {...props}
             className={
                 'my_button'
-                + (" " + props.className)
+                + (props.className ? ` ${props.className}` : "")
                 + (active ? ' active' : "")
                 + (rectangle ? ' rectangle' : "")
             }

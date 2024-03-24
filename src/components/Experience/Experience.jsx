@@ -1,5 +1,6 @@
 import React from 'react';
 import "./Experience.scss";
+import "styles/components_styles/CardLine.scss";
 import SectionHead from 'components/SectionHead/SectionHead';
 import { useSelector } from 'react-redux';
 import CompanyCommon from 'svg/CompanyCommon';
@@ -45,8 +46,11 @@ const Experience = () => {
                                         }
                                     </ul>
                                 </div>
+                                <div className="logo-date hide flex-if_lg_size">
+                                    <span className="date">{company.date}</span>
+                                </div>
                             </div>
-                            <div className="logo-date">
+                            <div className="logo-date flex">
                                 <a href={company.href} className="logo_wrapper">
                                     {
                                         company.logo
@@ -56,7 +60,7 @@ const Experience = () => {
                                             <CompanyCommon />
                                     }
                                 </a>
-                                <span className="date">{company.date}</span>
+                                <span className="date hide-if_lg_size">{company.date}</span>
                             </div>
                         </div>
                     )

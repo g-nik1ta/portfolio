@@ -24,9 +24,13 @@
                 font-weight: 600;
                 font-size: 32px;
                 display: flex;
-                gap: 12px;
                 color: $color-light;
                 line-height: 68px;
+                flex-wrap: wrap;
+
+                span {
+                    margin-right: 12px;
+                }
 
                 .Typewriter {
                     color: $color-blue;
@@ -72,7 +76,113 @@
                 max-height: 400px;
                 border-radius: 50%;
                 border: 2px solid $color-blue;
-            }   
+            }
+        }
+    }
+}
+
+@media screen and (max-width: $lg-size-max-width) {
+    .about .inner {
+        padding: 48px 30px;
+
+        .info_wrapper {
+            .title {
+                font-size: 40px;
+                line-height: 48px;
+            }
+
+            .subtitle {
+                font-size: 28px;
+                line-height: 36px;
+            }
+
+            .text {
+                font-size: 16px;
+                line-height: 28px;
+                margin-bottom: 28px;
+            }
+        }
+
+        .avatar_wrapper {
+            justify-content: center;
+
+            svg {
+                max-width: 85%;
+                max-height: 85%;
+            }
+
+            .avatar {
+                max-width: 300px;
+                max-height: 300px;
+            }
+        }
+    }
+}
+
+
+@media screen and (max-width: $md-size-max-width) {
+    .about .inner {
+        padding: 32px 24px;
+
+        .avatar_wrapper svg {
+            left: 10%;
+            top: -20%;
+            max-width: 140%;
+            max-height: 140%;
+        }
+
+        .info_wrapper {
+            .title {
+                margin-top: 8px;
+            }
+
+            .subtitle {
+                margin: 12px 0;
+            }
+
+            .my_button {
+                margin: 0 auto;
+            }
+        }
+    }
+}
+
+
+@media screen and (max-width: $sm-size-max-width) {
+    .about .inner {
+        padding: 32px 16px;
+
+        .info_wrapper {
+            .title {
+                font-size: 34px;
+                line-height: 40px;
+            }
+
+            .subtitle {
+                margin: 8px 0;
+                font-size: 26px;
+                line-height: 30px;
+            }
+
+            .text {
+                font-size: 14px;
+                line-height: 26px;
+                margin-bottom: 22px;
+            }
+        }
+
+        .avatar_wrapper {
+            .avatar {
+                max-width: 240px;
+                max-height: 240px;
+            }
+
+            svg {
+                left: 5%;
+                top: -10%;
+                max-width: 150%;
+                max-height: 150%;
+            }
         }
     }
 }

@@ -16,6 +16,8 @@ footer {
     }
 
     nav {
+        justify-content: center;
+        flex-wrap: wrap;
         margin-top: 8px;
         display: flex;
         gap: 16px;
@@ -68,5 +70,40 @@ footer {
         font-size: 14px;
         text-align: center;
         opacity: .8;
+    }
+}
+
+
+@media screen and (max-width: $lg-size-max-width) {
+    footer {
+        gap: 10px;
+
+        .my_name {
+            font-size: 18px;
+        }
+
+        nav {
+            margin-top: 0;
+            gap: 12px;
+
+            .link_item {
+                font-size: 14px;
+            }
+        }
+    
+        .socials_wrapper {
+            margin: 8px 0;
+            gap: 16px;
+
+            a svg {
+                width: 24px;
+                height: 24px;
+            }
+        }
+
+        .copyright {
+            margin-top: 4px;
+            font-size: 12px;
+        }
     }
 }

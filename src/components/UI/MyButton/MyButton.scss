@@ -10,7 +10,7 @@
     color: $color-blue;
     cursor: pointer;
     padding: 0px 20px;
-    transition: all 0.3s ease-in-out 0s;
+    transition: background-color 0.3s ease-in-out 0s;
     background-color: transparent;
     width: fit-content;
     max-width: 300px;
@@ -56,6 +56,40 @@
         .my_button_title {
             font-size: 20px;
             font-weight: 600;
+        }
+    }
+}
+
+@media screen and (max-width: $lg-size-max-width) {
+    .my_button {
+        height: 36px;
+        padding: 0 16px;
+        max-width: 240px;
+
+        &.medium {
+            height: 50px;
+
+            .my_button_title {
+                font-size: 18px;
+            }
+        }
+
+        .my_button_title {
+            font-size: 14px;
+        }
+    }
+}
+
+@media screen and (max-width: $sm-size-max-width) {
+    .my_button {
+        max-width: 220px;
+
+        &.medium {
+            height: 44px;
+
+            .my_button_title {
+                font-size: 17px;
+            }
         }
     }
 }

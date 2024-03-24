@@ -85,3 +85,43 @@
         }
     }
 }
+
+@media screen and (max-width: $lg-size-max-width) {
+    .skills_section .skills_box_list {
+        gap: 40px;
+        padding-top: 8px;
+
+        .skill_box {
+            flex-basis: calc(100%);
+            padding: 12px 28px;
+
+            .title {
+                font-size: 24px;
+            }
+
+            .skills_wrapper {
+                margin-bottom: 12px;
+
+                .skill {
+                    padding: 8px 10px;
+                    font-size: 14px;
+                    gap: 6px;
+
+                    svg {
+                        min-width: 20px;
+                        min-height: 20px;
+                        max-width: 20px;
+                        max-height: 20px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+@media screen and (max-width: $sm-size-max-width) {
+    .skills_section .skills_box_list .skill_box .title {
+        margin-bottom: 12px;
+    }
+}   

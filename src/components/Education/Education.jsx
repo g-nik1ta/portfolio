@@ -41,8 +41,11 @@ const Education = () => {
                                     </span>
                                 }
                                 <p className="description">{item.description}</p>
+                                <div className="logo-date hide flex-if_lg_size">
+                                    <span className="date">{item.date}</span>
+                                </div>
                             </div>
-                            <div className="logo-date">
+                            <div className="logo-date flex">
                                 <a href={item.href} className={"logo_wrapper " + (item.logoBackground ? item.logoBackground : '')}>
                                     {
                                         item.logo
@@ -52,7 +55,7 @@ const Education = () => {
                                             <EducationCommon />
                                     }
                                 </a>
-                                <span className="date">{item.date}</span>
+                                <span className="date hide-if_lg_size">{item.date}</span>
                             </div>
                         </div>
                     )

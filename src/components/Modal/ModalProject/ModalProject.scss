@@ -66,3 +66,27 @@
         margin-top: 8px;
     }
 }
+
+@media screen and (max-width: $lg-size-max-width) {
+    .modal-project {
+        .project_name {
+            font-size: 22px;
+        }
+
+        .technologies {
+            margin: 6px 0;
+
+            li {
+                font-size: 12px;
+            }
+        }
+
+        .project_description {
+            font-size: 14px;
+        }
+
+        .my_button {
+            min-height: 44px;
+        }
+    }
+}

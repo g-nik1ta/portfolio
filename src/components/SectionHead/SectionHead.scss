@@ -15,3 +15,34 @@
     color: $color-grey;
     margin-bottom: 40px;
 }
+
+@media screen and (max-width: $lg-size-max-width) {
+    .section_title {
+        font-size: 46px;
+        margin-top: 16px;
+    }
+
+    .section_subtitle {
+        font-size: 16px;
+        margin-bottom: 32px;
+    }
+}
+
+@media screen and (max-width: $md-size-max-width) {
+    .section_title {
+        font-size: 42px;
+        margin-top: 12px;
+    }
+}
+
+@media screen and (max-width: $sm-size-max-width) {
+    .section_title {
+        font-size: 38px;
+        margin-top: 8px;
+        line-height: 48px;
+    }
+
+    .section_subtitle {
+        margin-bottom: 20px;
+    }
+}

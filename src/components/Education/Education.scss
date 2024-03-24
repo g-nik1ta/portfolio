@@ -8,3 +8,11 @@
         color: rgba(177, 178, 179, 0.6);
     }
 }
+
+@media screen and (max-width: $lg-size-max-width) {
+    .education_section {
+        .grade {
+            font-size: 13px;
+        }
+    }
+}

@@ -27,3 +27,16 @@
         }
     }
 }
+
+@media screen and (max-width: $lg-size-max-width) {
+    .experience_section .skills {
+        b {
+            margin-right: 8px;
+            font-size: 13px;
+        }
+
+        ul li {
+            font-size: 13px;
+        }
+    }
+}
