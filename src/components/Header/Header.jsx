@@ -27,7 +27,7 @@ const Header = () => {
                     <a className='link_item' href="#projects">Projects</a>
                     <a className='link_item' href="#education">Education</a>
                 </nav>
-                <MyButton className="hide-if_md_size">
+                <MyButton href="https://github.com/g-nik1ta" className="hide-if_md_size">
                     GitHub Profile
                 </MyButton>
 

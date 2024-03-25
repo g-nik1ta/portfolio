@@ -10,8 +10,8 @@ const Education = () => {
     return (
         <section className='education_section container_box' id='education'>
             <SectionHead
-                title="Education"
-                subtitle="My education has been a journey of self-discovery and growth. My educational details are as follows."
+                title="Образование"
+                subtitle="Краткий список моего образования как программиста."
             />
             <div className="cards_line">
                 {

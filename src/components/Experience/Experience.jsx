@@ -11,8 +11,8 @@ const Experience = () => {
     return (
         <section className='experience_section container_box' id='experience'>
             <SectionHead
-                title="Experience"
-                subtitle="My work experience as a software engineer and working on different companies and projects."
+                title="Опыт"
+                subtitle="Мой опыт работы в качестве веб-разработчка в различных компаниях."
             />
             <div className="cards_line">
                 {

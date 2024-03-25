@@ -8,9 +8,9 @@ const defaultState = {
             job_title: 'Junior Full Stack developer',
             company_name: 'Spekter',
             date: 'June 2023 - Still',
-            description: 'Enhanced user experiences on Neurobit PSG & Hybrid, Portals by resolving bugs & reduced load time by 40%. Built Neurobit Analytics portal using React Js with seamless interaction of REST APIs using AXIOS optimized with React Query. Refactored previous code to TypeScript, updated with new dependency and integrated Vite with Jest for Unit Testing.',
+            description: 'Занимался созданием проектов и веб-сайтов на фреймворке Laravel, с использованием языка программирования PHP в качестве Backend и JavaScript в качестве Frontend. Однако и имел дело с React, Redux фреймворками. Принимал участие в разработке множество сайтов, интернет магазинов, порталов и других уникальных проектов. Работая в этой компании получил опыт в Backend разработке, в работе с базой данных, сервером, SEO оптимизацией и многое другое.',
             skills: [
-                'ReactJS', 'Redux', 'Laravel', 'PHP', 'MySQL', 'HTML', 'CSS', 'JavaScript', 'Sass', 'jQuery'
+                'Laravel', 'PHP', 'MySQL', 'ReactJS', 'Redux', 'HTML', 'CSS', 'JavaScript', 'Sass', 'jQuery'
             ],
         },
         {
@@ -21,7 +21,7 @@ const defaultState = {
             job_title: 'Frontend Engineer Intern',
             company_name: 'IT Transformation',
             date: 'December 2022 - March 2023',
-            description: 'Enhanced user experiences on Neurobit PSG & Hybrid, Portals by resolving bugs & reduced load time by 40%. Built Neurobit Analytics portal using React Js with seamless interaction of REST APIs using AXIOS optimized with React Query. Refactored previous code to TypeScript, updated with new dependency and integrated Vite with Jest for Unit Testing.',
+            description: 'Проходил стажировку в качестве Frontend разработчка, принимал участие в создании веб-приложений и сайтов. В качестве основного фреймворка был выбран Vue, но кроме этого имел дело с такими технологиями как Vuex, Vuetify, JavaScript и многое другое. Также получил уникальный опыт в работе с авторизацией с использованием системы управления идентификацией и доступом - Keycloak.',
             skills: [
                 'Vue', 'Vuex', 'Vuetify', 'HTML', 'CSS', 'JavaScript', 'Keycloak'
             ],

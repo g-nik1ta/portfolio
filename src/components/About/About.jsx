@@ -18,10 +18,12 @@ const About = () => {
                         <TypewriterBlock />
                     </div>
                     <p className="text text_center-if_md_size">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur atque nostrum fuga odit odio architecto et beatae, facilis aliquam officia magnam aut ab quae esse placeat dolor culpa hic non explicabo sapiente animi ex eaque autem! Ratione nulla iste inventore accusamus veritatis dolor quas incidunt rem odio, excepturi aspernatur, fugiat consectetur nam laborum error reiciendis?
+                    Я мотивированный и разносторонний человек, всегда готовый решать новые задачи.
+                    <br /> С опытом работы и уверенными навыками в качестве Full Stack разработчика, я способен эффективно работать над разнообразными проектами. Я ориентирован на рост и готов к конструктивной критике, которая помогает мне постоянно совершенствоваться. 
+                    <br /> Моя цель - не просто выполнять задачи, а создавать высококачественные проекты в сотрудничестве с дружной и амбициозной командой. Я стремлюсь к профессионализму в своей работе и нацелен на достижение значимых результатов в области веб-разработки.
                     </p>
-                    <MyButton active={true} className="medium">
-                        Check Resume
+                    <MyButton href="https://g-nik1ta.github.io/resume/" active={true} className="medium">
+                        Check CV
                     </MyButton>
                 </div>
                 <div className="avatar_wrapper half_width full_width-if_md_size">

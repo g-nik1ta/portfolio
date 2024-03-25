@@ -29,7 +29,7 @@ const MobileMenu = ({ burger, setBurger }) => {
                 </div>
             </nav>
 
-            <MyButton>
+            <MyButton href="https://github.com/g-nik1ta">
                 GitHub Profile
             </MyButton>
             <Socials />

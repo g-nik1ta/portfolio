@@ -13,8 +13,8 @@ const Skills = () => {
     return (
         <section className='skills_section container_box' id='skills'>
             <SectionHead
-                title="Skills"
-                subtitle="Here are some of my skills on which I have been working on for the past 3 years."
+                title="Навыки"
+                subtitle="Вот некоторые из моих навыков, которые я изучил за последние 2 года."
             />
             <div className="skills_box_list">
                 {

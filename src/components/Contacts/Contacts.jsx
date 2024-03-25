@@ -7,8 +7,8 @@ const Contacts = () => {
     return (
         <section className='contacts_section container_box'>
             <SectionHead
-                title="Contact"
-                subtitle="Feel free to reach out to me for any questions or opportunities!"
+                title="Контакты"
+                subtitle="По любым вопросам или предложениям можете связаться со мной!"
             />
             <div className="form_wrapper">
                 <h2 className="title">Email Me 🚀</h2>

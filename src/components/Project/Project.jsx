@@ -9,11 +9,17 @@ import { setCurrentProjectAction } from 'store/ProjectsReducer';
 const Project = () => {
     const dispatch = useDispatch();
     const types = [
-        { id: -1, title: 'All' },
-        { id: 1, title: 'Web APP\'S' },
-        { id: 2, title: 'One page Landings' },
-        { id: 3, title: 'Pet Projects' },
+        { id: -1, title: 'Всё' },
+        { id: 1, title: 'Веб приложения' },
+        { id: 2, title: 'Одностраничные сайты' },
+        { id: 3, title: 'Собственные проекты' },
     ]
+    // const types = [
+    //     { id: -1, title: 'All' },
+    //     { id: 1, title: 'Web APP\'S' },
+    //     { id: 2, title: 'One page Landings' },
+    //     { id: 3, title: 'Pet Projects' },
+    // ]
 
     const projects = useSelector(state => state.ProjectsReducer.projects);
     const [sortProjects, setSortProjects] = useState(projects);
@@ -38,8 +44,8 @@ const Project = () => {
     return (
         <section className='project_section container_box' id='projects'>
             <SectionHead
-                title="Projects"
-                subtitle="I have worked on a wide range of projects. From web apps to android apps. Here are some of my projects."
+                title="Проекты"
+                subtitle="За время работы в сфере IT я успел создать множество проектов, от простых одностраничных сайтов и pet project до крупных интернет магазинов, порталов и других веб-сайтов."
             />
             <SwitchBlock switchHandler={sortHandler} firstActive={true}>
                 {
