@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.b46f7253.css",
+    "main.js": "/portfolio/static/js/main.885fb9ae.js",
+    "static/media/kyiv-realty.jpg": "/portfolio/static/media/kyiv-realty.9ac1c2467b6ea35a60c2.jpg",
+    "static/media/mododomus.jpg": "/portfolio/static/media/mododomus.b20c173573fe749a368a.jpg",
+    "static/media/spektrum.jpg": "/portfolio/static/media/spektrum.b0508a334f177bdea94a.jpg",
+    "static/media/market-house.jpg": "/portfolio/static/media/market-house.e9bb47f3d386321acb09.jpg",
+    "static/media/golden.jpg": "/portfolio/static/media/golden.ea76931e8da4c4a520b3.jpg",
+    "static/media/premier-palace.jpg": "/portfolio/static/media/premier-palace.37ff26c31931117390ca.jpg",
+    "static/media/react-web-shop.jpg": "/portfolio/static/media/react-web-shop.81c5147716df21c051d6.jpg",
+    "static/media/resume.jpg": "/portfolio/static/media/resume.a4e8ec987205e89c439f.jpg",
+    "static/media/lavbet.jpg": "/portfolio/static/media/lavbet.43decdb39bb0eaf18336.jpg",
+    "static/media/jewelty.jpg": "/portfolio/static/media/jewelty.fd2877969614bd85d4ee.jpg",
+    "static/media/printing-landing.jpg": "/portfolio/static/media/printing-landing.a2a8e00e546b081fd7c4.jpg",
+    "static/media/hounter-landing.jpg": "/portfolio/static/media/hounter-landing.3eead7331f217c800499.jpg",
+    "static/media/stomadeus.jpg": "/portfolio/static/media/stomadeus.497f1bd2e57b4d41b561.jpg",
+    "static/media/neural-network.jpg": "/portfolio/static/media/neural-network.7dc88fff97ceac3fc7dd.jpg",
+    "static/media/avatar.jpg": "/portfolio/static/media/avatar.e74bd41ed7a87205a1ac.jpg",
+    "static/media/weather-forecast.jpg": "/portfolio/static/media/weather-forecast.097bbf4595b5e8c9b0cc.jpg",
+    "static/media/address-book.jpg": "/portfolio/static/media/address-book.86e3dca652ebcf1497e2.jpg",
+    "static/media/to-do-list.jpg": "/portfolio/static/media/to-do-list.2758f61cd92d88b54b78.jpg",
+    "static/media/usermanagement.jpg": "/portfolio/static/media/usermanagement.4ad7bf79076d64b8f868.jpg",
+    "static/media/calculator.jpg": "/portfolio/static/media/calculator.cd1051a733422ace3b86.jpg",
+    "static/media/login-form.jpg": "/portfolio/static/media/login-form.60932a874c7aff8dd3d0.jpg",
+    "static/media/animtaion-cubes.jpg": "/portfolio/static/media/animtaion-cubes.17bbf578a869571d5223.jpg",
+    "static/media/react-to-do-list.jpg": "/portfolio/static/media/react-to-do-list.65c453090f9d2a5df4d0.jpg",
+    "static/media/cbs.svg": "/portfolio/static/media/cbs.4a7d78576a223b33d581.svg",
+    "static/media/it_transformation.svg": "/portfolio/static/media/it_transformation.810d147659dc40e0b8e7.svg",
+    "index.html": "/portfolio/index.html",
+    "main.b46f7253.css.map": "/portfolio/static/css/main.b46f7253.css.map",
+    "main.885fb9ae.js.map": "/portfolio/static/js/main.885fb9ae.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b46f7253.css",
+    "static/js/main.885fb9ae.js"
+  ]
+}
