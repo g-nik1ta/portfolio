@@ -52,8 +52,8 @@ const Project = () => {
     return (
         <section className='project_section container_box' id='projects'>
             <SectionHead
-                title={t('experience.head.title')}
-                subtitle={t('experience.head.subtitle')}
+                title={t('projects.head.title')}
+                subtitle={t('projects.head.subtitle')}
             />
             <SwitchBlock switchHandler={sortHandler} firstActive={true}>
                 {
