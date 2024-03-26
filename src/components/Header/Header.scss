@@ -57,7 +57,7 @@ header {
             }
         }
 
-        .my_button {
+        &>.my_button {
             margin-left: 6px;
         }
     }
@@ -121,6 +121,10 @@ header {
             .title {
                 font-size: 18px;
             }
+        }
+
+        .lang_container {
+            margin-left: auto;
         }
     }
 }

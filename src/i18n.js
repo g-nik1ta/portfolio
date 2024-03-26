@@ -3,19 +3,23 @@ import LanguageDetector from "i18next-browser-languagedetector";
 import Backend from "i18next-xhr-backend";
 import { initReactI18next } from "react-i18next";
 
+import translationUA from "locales/ua/translation.json";
 import translationEN from "locales/en/translation.json";
 import translationRU from "locales/ru/translation.json";
 
 const resources = {
+    ua: {
+        translation: translationUA
+    },
     en: {
         translation: translationEN
     },
     ru: {
         translation: translationRU
-    }
+    },
 };
 
-const lng = "ru";
+const lng = "ua";
 
 i18n
     .use(Backend) // used to load data from othe directory

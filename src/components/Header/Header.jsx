@@ -1,10 +1,10 @@
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
 import Logo from "svg/Logo";
 import "./Header.scss";
 import MyButton from 'components/UI/MyButton/MyButton';
 import Burger from './Burger/Burger';
 import MobileMenu from 'components/MobileMenu/MobileMenu';
-import { useTranslation } from 'react-i18next';
+import LangSelect from 'components/UI/LangSelect/LangSelect';
 
 const Header = () => {
     const [burger, setBurger] = useState(false);
@@ -14,19 +14,6 @@ const Header = () => {
         setBurger(false);
     }
 
-    let countries = [
-        {
-            code: "ru",
-            name: "Russian",
-        },
-        {
-            code: "en",
-            name: "English",
-        },
-    ]
-
-    const { t, i18n } = useTranslation();
-
     return (
         <header>
             <div className="inner container_box">
@@ -35,22 +22,6 @@ const Header = () => {
                     <span className="title">Portfolio</span>
                 </div>
 
-                {countries.map((lng) => {
-                    return (
-                        <div key={lng.code}>
-                            <button
-                                onClick={() => i18n.changeLanguage(lng.code)} // used to change language that needs to be rendered
-                                disabled={i18n.language === lng.code}
-                            >
-                                <span>{i18n.language}__</span>
-                                <span>{lng.name}</span>
-                            </button>
-                        </div>
-                    );
-                })}
-
-                <p>{t("test")}</p>
-
                 <nav className='hide-if_md_size flex'>
                     <a className='link_item' href="#about">About</a>
                     <a className='link_item' href="#skills">Skills</a>
@@ -58,9 +29,13 @@ const Header = () => {
                     <a className='link_item' href="#projects">Projects</a>
                     <a className='link_item' href="#education">Education</a>
                 </nav>
-                <MyButton href="https://github.com/g-nik1ta" className="hide-if_md_size">
-                    GitHub Profile
-                </MyButton>
+
+                <div className='flex align_center lang_container'>
+                    <MyButton href="https://github.com/g-nik1ta" className="hide-if_md_size">
+                        GitHub Profile
+                    </MyButton>
+                    <LangSelect />
+                </div>
 
                 <Burger burger={burger} setBurger={setBurger} />
             </div>
