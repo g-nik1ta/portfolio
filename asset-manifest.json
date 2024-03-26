@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.b46f7253.css",
-    "main.js": "/portfolio/static/js/main.6dc95b3b.js",
+    "main.css": "/portfolio/static/css/main.8ea315c9.css",
+    "main.js": "/portfolio/static/js/main.7d55a22c.js",
     "static/media/kyiv-realty.jpg": "/portfolio/static/media/kyiv-realty.9ac1c2467b6ea35a60c2.jpg",
     "static/media/mododomus.jpg": "/portfolio/static/media/mododomus.b20c173573fe749a368a.jpg",
     "static/media/spektrum.jpg": "/portfolio/static/media/spektrum.b0508a334f177bdea94a.jpg",
@@ -28,11 +28,11 @@
     "static/media/cbs.svg": "/portfolio/static/media/cbs.4a7d78576a223b33d581.svg",
     "static/media/it_transformation.svg": "/portfolio/static/media/it_transformation.d9f08e921c687e815878.svg",
     "index.html": "/portfolio/index.html",
-    "main.b46f7253.css.map": "/portfolio/static/css/main.b46f7253.css.map",
-    "main.6dc95b3b.js.map": "/portfolio/static/js/main.6dc95b3b.js.map"
+    "main.8ea315c9.css.map": "/portfolio/static/css/main.8ea315c9.css.map",
+    "main.7d55a22c.js.map": "/portfolio/static/js/main.7d55a22c.js.map"
   },
   "entrypoints": [
-    "static/css/main.b46f7253.css",
-    "static/js/main.6dc95b3b.js"
+    "static/css/main.8ea315c9.css",
+    "static/js/main.7d55a22c.js"
   ]
 }
