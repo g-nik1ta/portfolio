@@ -45,7 +45,7 @@ const Project = () => {
         <section className='project_section container_box' id='projects'>
             <SectionHead
                 title="Проекты"
-                subtitle="За время работы в сфере IT я успел создать множество проектов, от простых одностраничных сайтов и pet project до крупных интернет магазинов, порталов и других веб-сайтов."
+                subtitle="За время работы в сфере IT я успел создать множество проектов, от простых одностраничных сайтов и pet project до крупных интернет-магазинов, порталов и других веб-сайтов."
             />
             <SwitchBlock switchHandler={sortHandler} firstActive={true}>
                 {

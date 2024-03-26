@@ -58,6 +58,6 @@ export const othersLogo = [
     { id: 5, svg: <XamppLogo />, title: 'Xampp' },
     { id: 6, svg: <FigmaLogo />, title: 'Firebase' },
     { id: 7, svg: <AdobePhotoshopLogo />, title: 'Adobe Photoshop' },
-    { id: 8, svg: <VsCodeLogo />, title: 'Visual Studio Code' },
+    { id: 8, svg: <VsCodeLogo />, title: 'Visual Code' },
     { id: 9, svg: <TrelloLogo />, title: 'Trello' },
 ]
