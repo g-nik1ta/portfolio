@@ -6,9 +6,10 @@ import MyButton from 'components/UI/MyButton/MyButton';
 import { useDispatch, useSelector } from 'react-redux';
 import { setCurrentProjectAction } from 'store/ProjectsReducer';
 import { useTranslation } from 'react-i18next';
+import { useTranslationDataArray } from 'hooks/useTranslations';
 
 const Project = () => {
-    const { t } = useTranslation();
+    const { t, i18n } = useTranslation();
     const dispatch = useDispatch();
     const titleArr = t('projects.types', { returnObjects: true })
     const types = [
@@ -18,25 +19,35 @@ const Project = () => {
         { id: 3, title: titleArr[3] },
     ]
 
-    const projects = useSelector(state => state.ProjectsReducer.projects);
-    const [sortProjects, setSortProjects] = useState(projects);
+    const projectsCommon = useSelector(state => state.ProjectsReducer.projects);
+    const projects_translations = useSelector(state => state.ProjectsReducer.projects_translations);
+    const translationProjects = useTranslationDataArray(projectsCommon, projects_translations, i18n.language);
+    const [projects, setProjects] = useState(translationProjects.reverse());
+
+    useEffect(() => {
+        setProjects(translationProjects.reverse())
+    }, [translationProjects])
+
+    
+    const [sortProjects, setSortProjects] = useState(translationProjects.reverse());
 
     const [sort, setSort] = useState(-1);
     const sortHandler = (param) => {
         setSort(Number(param));
     }
+
+    const setCurrentProject = (id) => {
+        dispatch(setCurrentProjectAction(id));
+        document.querySelector('body').classList.add('no_scroll');
+    }
+
     useEffect(() => {
         if (sort === -1) {
             setSortProjects(projects);
             return;
         }
         setSortProjects(projects.filter(item => item.type_id === sort));
-    }, [sort])
-
-    const setCurrentProject = (id) => {
-        dispatch(setCurrentProjectAction(id));
-        document.querySelector('body').classList.add('no_scroll');
-    }
+    }, [sort, projects])
 
     return (
         <section className='project_section container_box' id='projects'>
@@ -53,7 +64,7 @@ const Project = () => {
             </SwitchBlock>
             <div className="projects_list">
                 {
-                    sortProjects.reverse().map((project, index) =>
+                    sortProjects.map((project, index) =>
                         <div onClick={() => setCurrentProject(project.id)} key={project.id} className="project_card">
                             <img src={require(`assets/projects/${project.preview}`)} alt={`project ${index}`} />
                             <ul className='undecorated_ul technologies'>
@@ -63,9 +74,9 @@ const Project = () => {
                                     )
                                 }
                             </ul>
-                            <h2 className="project_name">{project.project_name}</h2>
-                            <h4 className="duration_work">{project.duration_work}</h4>
-                            <p className="project_description">{project.project_description}</p>
+                            <h2 className="project_name">{project.translation.project_name}</h2>
+                            <h4 className="duration_work">{project.translation.duration_work}</h4>
+                            <p className="project_description">{project.translation.project_description}</p>
                         </div>
                     )
                 }

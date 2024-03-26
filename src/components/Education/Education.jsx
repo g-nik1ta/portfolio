@@ -4,20 +4,20 @@ import SectionHead from 'components/SectionHead/SectionHead';
 import { useSelector } from 'react-redux';
 import EducationCommon from 'svg/EducationCommon';
 import { useTranslation } from 'react-i18next';
-import { useTranslationData } from 'hooks/useTranslations';
+import { useTranslationDataArray } from 'hooks/useTranslations';
 
 const Education = () => {
     const { t, i18n } = useTranslation();
     const educationsCommon = useSelector(state => state.EducationReducer.educations);
     const educations_translations = useSelector(state => state.EducationReducer.educations_translations);
     
-    const educations = useTranslationData(educationsCommon, educations_translations, i18n.language)
+    const educations = useTranslationDataArray(educationsCommon, educations_translations, i18n.language)
 
     return (
         <section className='education_section container_box' id='education'>
             <SectionHead
-                title={t('experience.head.title')}
-                subtitle={t('experience.head.subtitle')}
+                title={t('education.head.title')}
+                subtitle={t('education.head.subtitle')}
             />
             <div className="cards_line">
                 {

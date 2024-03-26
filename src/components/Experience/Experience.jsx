@@ -5,14 +5,14 @@ import SectionHead from 'components/SectionHead/SectionHead';
 import { useSelector } from 'react-redux';
 import CompanyCommon from 'svg/CompanyCommon';
 import { useTranslation } from 'react-i18next';
-import { useTranslationData } from 'hooks/useTranslations';
+import { useTranslationDataArray } from 'hooks/useTranslations';
 
 const Experience = () => {
     const { t, i18n } = useTranslation();
     const companiesCommon = useSelector(state => state.ExperienceReducer.companies);
     const companies_translations = useSelector(state => state.ExperienceReducer.companies_translations);
     
-    const companies = useTranslationData(companiesCommon, companies_translations, i18n.language)
+    const companies = useTranslationDataArray(companiesCommon, companies_translations, i18n.language)
 
     return (
         <section className='experience_section container_box' id='experience'>
