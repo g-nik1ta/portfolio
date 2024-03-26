@@ -1,11 +1,14 @@
 import React from 'react';
+import { useTranslation } from 'react-i18next';
 import Typewriter from 'typewriter-effect';
 
 const TypewriterBlock = () => {
+    const { t } = useTranslation();
+
     return (
         <Typewriter
             options={{
-                strings: ['Programmer', 'Full Stack Developer', 'Frontend Engineer'],
+                strings: t('about.typewriter', { returnObjects: true }),
                 autoStart: true,
                 loop: true,
                 pauseFor: 2500,

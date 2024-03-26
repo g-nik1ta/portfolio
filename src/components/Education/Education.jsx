@@ -3,15 +3,21 @@ import './Education.scss';
 import SectionHead from 'components/SectionHead/SectionHead';
 import { useSelector } from 'react-redux';
 import EducationCommon from 'svg/EducationCommon';
+import { useTranslation } from 'react-i18next';
+import { useTranslationData } from 'hooks/useTranslations';
 
 const Education = () => {
-    const educations = useSelector(state => state.EducationReducer.educations);
+    const { t, i18n } = useTranslation();
+    const educationsCommon = useSelector(state => state.EducationReducer.educations);
+    const educations_translations = useSelector(state => state.EducationReducer.educations_translations);
+    
+    const educations = useTranslationData(educationsCommon, educations_translations, i18n.language)
 
     return (
         <section className='education_section container_box' id='education'>
             <SectionHead
-                title="Образование"
-                subtitle="Краткий список моего образования как программиста."
+                title={t('experience.head.title')}
+                subtitle={t('experience.head.subtitle')}
             />
             <div className="cards_line">
                 {
@@ -19,7 +25,7 @@ const Education = () => {
                         <div key={item.id} className="experience_item">
                             <div className="info_card">
                                 <div className="head">
-                                    <a href={item.href} className={"logo " + (item.logoBackground ? item.logoBackground : '')}>
+                                    <a href={item.href} target='_blank' className={"logo " + (item.logoBackground ? item.logoBackground : '')}>
                                         {
                                             item.logo
                                                 ?
@@ -29,24 +35,26 @@ const Education = () => {
                                         }
                                     </a>
                                     <div className='flex column'>
-                                        <span className="job_title">{item.title}</span>
-                                        <a href={item.href} className="company_name">{item.education_name}</a>
-                                        <span className="date">{item.date}</span>
+                                        <span className="job_title">{item.translation.title}</span>
+                                        <a href={item.href} target='_blank' className="company_name">
+                                            {item.translation.education_name}
+                                        </a>
+                                        <span className="date">{item.translation.date}</span>
                                     </div>
                                 </div>
                                 {
                                     item.grade &&
                                     <span className="grade">
-                                        <b>Grade: </b>{item.grade}
+                                        <b>{t('education.grade')}: </b>{item.grade}
                                     </span>
                                 }
-                                <p className="description">{item.description}</p>
+                                <p className="description">{item.translation.description}</p>
                                 <div className="logo-date hide flex-if_lg_size">
-                                    <span className="date">{item.date}</span>
+                                    <span className="date">{item.translation.date}</span>
                                 </div>
                             </div>
                             <div className="logo-date flex">
-                                <a href={item.href} className={"logo_wrapper " + (item.logoBackground ? item.logoBackground : '')}>
+                                <a href={item.href} target='_blank' className={"logo_wrapper " + (item.logoBackground ? item.logoBackground : '')}>
                                     {
                                         item.logo
                                             ?
@@ -55,7 +63,7 @@ const Education = () => {
                                             <EducationCommon />
                                     }
                                 </a>
-                                <span className="date hide-if_lg_size">{item.date}</span>
+                                <span className="date hide-if_lg_size">{item.translation.date}</span>
                             </div>
                         </div>
                     )

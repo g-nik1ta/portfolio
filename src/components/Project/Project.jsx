@@ -5,21 +5,18 @@ import SwitchBlock from 'components/UI/SwitchBlock/SwitchBlock';
 import MyButton from 'components/UI/MyButton/MyButton';
 import { useDispatch, useSelector } from 'react-redux';
 import { setCurrentProjectAction } from 'store/ProjectsReducer';
+import { useTranslation } from 'react-i18next';
 
 const Project = () => {
+    const { t } = useTranslation();
     const dispatch = useDispatch();
+    const titleArr = t('projects.types', { returnObjects: true })
     const types = [
-        { id: -1, title: 'Всё' },
-        { id: 1, title: 'Веб приложения' },
-        { id: 2, title: 'Одностраничные сайты' },
-        { id: 3, title: 'Собственные проекты' },
+        { id: -1, title: titleArr[0] },
+        { id: 1, title: titleArr[1] },
+        { id: 2, title: titleArr[2] },
+        { id: 3, title: titleArr[3] },
     ]
-    // const types = [
-    //     { id: -1, title: 'All' },
-    //     { id: 1, title: 'Web APP\'S' },
-    //     { id: 2, title: 'One page Landings' },
-    //     { id: 3, title: 'Pet Projects' },
-    // ]
 
     const projects = useSelector(state => state.ProjectsReducer.projects);
     const [sortProjects, setSortProjects] = useState(projects);
@@ -44,8 +41,8 @@ const Project = () => {
     return (
         <section className='project_section container_box' id='projects'>
             <SectionHead
-                title="Проекты"
-                subtitle="За время работы в сфере IT я успел создать множество проектов, от простых одностраничных сайтов и pet project до крупных интернет-магазинов, порталов и других веб-сайтов."
+                title={t('experience.head.title')}
+                subtitle={t('experience.head.subtitle')}
             />
             <SwitchBlock switchHandler={sortHandler} firstActive={true}>
                 {

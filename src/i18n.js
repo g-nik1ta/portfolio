@@ -19,7 +19,7 @@ const resources = {
     },
 };
 
-const lng = "ua";
+const lng = "en";
 
 i18n
     .use(Backend) // used to load data from othe directory
@@ -35,6 +35,8 @@ i18n
         interpolation: {
             escapeValue: false, // no need for react. it escapes by default
         },
+        // Разрешить использование HTML в переводах
+        sanitizeHtml: true,
     });
 
 export default i18n;

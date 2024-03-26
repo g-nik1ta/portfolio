@@ -1,3 +1,75 @@
 {
-    "test": "Super Test"
+    "general": {
+        "name": "Nikita Gonohov",
+        "copyright": "© 2024 Nikita Gonohov. All rights reserved."
+    },
+    "nav": {
+        "about": "About",
+        "skills": "Skills",
+        "experience": "Experience",
+        "projects": "Projects",
+        "education": "Education"
+    },
+    "header": {
+        "github_profile": "GitHub Profile"
+    },
+    "about": {
+        "title": "Hi, I am",
+        "subtitle": "I am a",
+        "text": [
+            "I am a motivated and versatile individual, always ready to tackle new challenges.",
+            "With experience and confident skills as a Full Stack developer, I am capable of efficiently working on diverse projects. I am continuously evolving and open to constructive criticism, which helps me improve.",
+            "My goal is not just to complete tasks, but to create high-quality projects in collaboration with a friendly and ambitious team. I strive for professionalism in my work and aim to achieve significant results in web development."
+        ],
+        "typewriter": [
+            "Programmer",
+            "Full Stack Developer",
+            "Frontend Engineer"
+        ],
+        "cv": "Check CV"
+    },
+    "skills": {
+        "head": {
+            "title": "Skills",
+            "subtitle": "Here are some of my skills that I've learned over the past 2 years."
+        }
+    },
+    "experience": {
+        "head": {
+            "title": "Experience",
+            "subtitle": "My experience working as a web developer in various companies."
+        }
+    },
+    "projects": {
+        "head": {
+            "title": "Projects",
+            "subtitle": "During my time in the IT industry, I have created numerous projects, ranging from simple single-page websites and pet projects to large-scale e-commerce platforms, portals, and other websites."
+        },
+        "types": [
+            "All",
+            "Web App's",
+            "One page Landings",
+            "Pet Projects"
+        ]
+    },
+    "education": {
+        "head": {
+            "title": "Education",
+            "subtitle": "Brief overview of my education as a programmer."
+        },
+        "grade": "Grade"
+    },
+    "contacts": {
+        "head": {
+            "title": "Contacts",
+            "subtitle": "Feel free to contact me with any questions or offers!"
+        },
+        "email_me": "Email Me",
+        "form": {
+            "email": "Your Email",
+            "text": "Your Name",
+            "message": "Message",
+            "send": "Send"
+        }
+    }
 }

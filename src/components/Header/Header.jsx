@@ -5,8 +5,10 @@ import MyButton from 'components/UI/MyButton/MyButton';
 import Burger from './Burger/Burger';
 import MobileMenu from 'components/MobileMenu/MobileMenu';
 import LangSelect from 'components/UI/LangSelect/LangSelect';
+import { useTranslation } from 'react-i18next';
 
 const Header = () => {
+    const { t } = useTranslation();
     const [burger, setBurger] = useState(false);
 
     const closeBurger = () => {
@@ -23,16 +25,16 @@ const Header = () => {
                 </div>
 
                 <nav className='hide-if_md_size flex'>
-                    <a className='link_item' href="#about">About</a>
-                    <a className='link_item' href="#skills">Skills</a>
-                    <a className='link_item' href="#experience">Experience</a>
-                    <a className='link_item' href="#projects">Projects</a>
-                    <a className='link_item' href="#education">Education</a>
+                    <a className='link_item' href="#about">{t("nav.about")}</a>
+                    <a className='link_item' href="#skills">{t("nav.skills")}</a>
+                    <a className='link_item' href="#experience">{t("nav.experience")}</a>
+                    <a className='link_item' href="#projects">{t("nav.projects")}</a>
+                    <a className='link_item' href="#education">{t("nav.education")}</a>
                 </nav>
 
                 <div className='flex align_center lang_container'>
                     <MyButton href="https://github.com/g-nik1ta" className="hide-if_md_size">
-                        GitHub Profile
+                        {t('header.github_profile')}
                     </MyButton>
                     <LangSelect />
                 </div>
