@@ -32,7 +32,7 @@
         margin-top: 8px;
         display: grid;
         grid-template-columns: repeat(3, 1fr);
-        grid-template-rows: repeat(3, 1fr);
+        // grid-template-rows: repeat(3, 1fr);
         grid-column-gap: 28px;
         grid-row-gap: 28px;
 
@@ -161,13 +161,11 @@
 @media screen and (max-width: $md-size-max-width) {
     .project_section .projects_list {
         grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(2, 1fr);
     }
 }
 
 @media screen and (max-width: 500px) {
     .project_section .projects_list {
         grid-template-columns: repeat(1, 1fr);
-        grid-template-rows: repeat(1, 1fr);
     }
 }

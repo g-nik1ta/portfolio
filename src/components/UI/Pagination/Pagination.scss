@@ -1,0 +1,94 @@
+@import "styles/common_styles/index";
+
+.pagination {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 32px auto 20px;
+    max-width: 380px;
+    gap: 12px;
+    width: fit-content;
+
+    .arrow {
+        border: 1px solid $color-blue;
+
+        &.prev {
+            margin-right: 4px;
+            order: -1;
+        }
+
+        &.next {
+            margin-left: 4px;
+            order: 3;
+        }
+
+        svg path {
+            stroke: $color-blue;
+        }
+
+        @media (hover: hover) {
+            &:hover {
+                background-color: $color-blue;
+
+                svg path {
+                    stroke: $color-light;
+                }
+            }
+        }
+    }
+
+    .arrow,
+    .item {
+        cursor: pointer;
+        width: 40px;
+        height: 40px;
+        border-radius: 12px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        user-select: none;
+    }
+
+    .item {
+        color: $color-grey;
+        font-size: 14px;
+        font-weight: 500;
+        border: 1px solid $color-blue;
+        color: $color-light;
+
+        @media (hover: hover) {
+            &:hover {
+                background-color: $color-blue !important;
+            }
+        }
+
+        &.hide {
+            display: none;
+        }
+
+        &.active {
+            background-color: rgba(0, 0, 255, 0.274);
+        }
+    }
+}
+
+
+@media screen and (max-width: $sm-size-max-width) {
+    .pagination {
+        margin: 24px auto 16px;
+        gap: 8px;
+        flex-wrap: wrap;
+        max-width: 350px;
+
+        .arrow,
+        .item {
+            width: 36px;
+            height: 36px;
+            font-size: 13px;
+
+            svg {
+                width: 9px;
+            }
+        }
+    }
+}
