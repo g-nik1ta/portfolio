@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.98c15b7d.css",
-    "main.js": "/portfolio/static/js/main.f4418422.js",
+    "main.css": "/portfolio/static/css/main.ec1a03f2.css",
+    "main.js": "/portfolio/static/js/main.85e48f0c.js",
     "static/media/kyiv-realty.jpg": "/portfolio/static/media/kyiv-realty.9ac1c2467b6ea35a60c2.jpg",
     "static/media/mododomus.jpg": "/portfolio/static/media/mododomus.b20c173573fe749a368a.jpg",
     "static/media/spektrum.jpg": "/portfolio/static/media/spektrum.b0508a334f177bdea94a.jpg",
@@ -28,11 +28,11 @@
     "static/media/cbs.svg": "/portfolio/static/media/cbs.4a7d78576a223b33d581.svg",
     "static/media/it_transformation.svg": "/portfolio/static/media/it_transformation.d9f08e921c687e815878.svg",
     "index.html": "/portfolio/index.html",
-    "main.98c15b7d.css.map": "/portfolio/static/css/main.98c15b7d.css.map",
-    "main.f4418422.js.map": "/portfolio/static/js/main.f4418422.js.map"
+    "main.ec1a03f2.css.map": "/portfolio/static/css/main.ec1a03f2.css.map",
+    "main.85e48f0c.js.map": "/portfolio/static/js/main.85e48f0c.js.map"
   },
   "entrypoints": [
-    "static/css/main.98c15b7d.css",
-    "static/js/main.f4418422.js"
+    "static/css/main.ec1a03f2.css",
+    "static/js/main.85e48f0c.js"
   ]
 }
