@@ -69,7 +69,9 @@
             "email": "Your Email",
             "text": "Your Name",
             "message": "Message",
-            "send": "Send"
+            "send": "Send",
+            "success_title": "Thank you for your message! I will contact you shortly.",
+            "error": "Application not sent! Try later."
         }
     }
 }

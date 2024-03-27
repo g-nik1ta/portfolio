@@ -1,6 +1,8 @@
 @import "styles/common_styles/index";
 
 .modal-project {
+    display: flex !important;
+
     .img_wrapper {
         height: 350px;
         margin-top: 20px;

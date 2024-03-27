@@ -13,7 +13,7 @@ const Modal = ({children, modalName = '', closeHandler}) => {
     }
 
     return (
-        <div onClick={closeModal} className={'modal_wrapper ' + (modalName)}>
+        <div onClick={closeModal} className={'modal_wrapper flex hide ' + (modalName)}>
             <div className="modal">
                 <Close onClick={closeModal} className="modal_close" />
                 {children}

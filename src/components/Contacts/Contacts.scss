@@ -65,6 +65,24 @@
                     font-size: 18px;
                 }
             }
+
+            .loader_wrapper {
+                height: 50px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+                .lds-spinner {
+                    transform: scale(.65);
+                }
+            }
+
+            .error {
+                margin: 0 auto;
+                font-size: 18px;
+                font-weight: 500;
+                color: #bf1515 ;
+            }
         }
     }
 }
@@ -94,6 +112,14 @@
 
                 span {
                     font-size: 16px;
+                }
+            }
+
+            .loader_wrapper {
+                height: 40px;
+
+                .lds-spinner {
+                    transform: scale(.5);
                 }
             }
         }

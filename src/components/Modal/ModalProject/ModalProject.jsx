@@ -25,6 +25,7 @@ const ModalProject = () => {
 
     useEffect(() => {
         setProject(translationData(projectsCommon, projects_translations, i18n.language, currentProject));
+        document.querySelector('.modal_wrapper.modal-project')?.classList.remove('hide')
     }, [projectsCommon, projects_translations, i18n.language, currentProject])
 
     if (!project?.id) return
