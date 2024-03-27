@@ -52,7 +52,16 @@ const Project = () => {
     }, [sort, projects])
 
 
-    const paginationMaxItem = Number(variables.mdSizeMaxWidth) ? 6 : 9;
+    const paginationMaxItem =
+        window.innerWidth <= Number(variables.mdSizeMaxWidth)
+            ?
+            window.innerWidth <= Number(variables.smSizeMaxWidth)
+                ?
+                4
+                :
+                6
+            :
+            9;
     const [currentPagePagination, setCurrentPagePagintaion] = useState(1);
     const projectsRef = useRef()
 
