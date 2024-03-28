@@ -425,21 +425,21 @@ const defaultState = {
             lang: 'ru',
             project_name: 'Hounter landing',
             duration_work: 'Май 2023',
-            project_description: 'Сайт представляет собой мое резюме, в котором содержится краткая информация обо мне, моем опыте работы, технологиях и образовании. Сайт адаптирован под разные размеры устройств. Проект использует минимальный набор технологий, такие как HTML и CSS.',
+            project_description: 'Это небольшой одностраничный лендинг, созданный на платформе React + менеджер состояния Redux, разработанный в течение короткого периода. Кроме того, здесь реализована адаптация под устройства с разными размерами экрана.',
         },
         {
             id: 14,
             lang: 'ua',
             project_name: 'Hounter landing',
             duration_work: 'Трав 2023',
-            project_description: 'Це невеликий односторінковий лендінг, побудований на платформі React + менеджер стану Redux, розроблений протягом короткого періоду. Крім того, тут реалізовано адаптацію під пристрої з різними розмірами екрану.'
+            project_description: 'Це невеликий односторінковий лендінг, створений на платформі React + менеджер стану Redux, розроблений протягом короткого періоду. Крім того, тут реалізовано адаптацію під пристрої з різними розмірами екрану.'
         },
         {
             id: 14,
             lang: 'en',
             project_name: 'Hounter landing',
             duration_work: 'May 2023',
-            project_description: 'This is a small single-page landing, built on the React platform + Redux state manager, developed within a short timeframe. Additionally, it features adaptation for devices with different screen sizes.'
+            project_description: 'This is a small single-page landing, created on the React platform + Redux state manager, developed within a short timeframe. Additionally, it features adaptation for devices with different screen sizes.'
         },
 
         {
