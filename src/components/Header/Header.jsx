@@ -19,10 +19,10 @@ const Header = () => {
     return (
         <header>
             <div className="inner container_box">
-                <div className="logo pointer">
+                <a href='' className="logo pointer">
                     <Logo />
                     <span className="title">Portfolio</span>
-                </div>
+                </a>
 
                 <nav className='hide-if_md_size flex'>
                     <a className='link_item' href="#about">{t("nav.about")}</a>

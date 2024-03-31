@@ -41,7 +41,7 @@ const defaultState = {
             id: 1,
             lang: 'en',
             date: "May 2023 — Still",
-            description: "Engaged in creating projects and websites on the Laravel framework, using PHP as Backend and JavaScript as Frontend, but also dealt with React, Redux frameworks. Participated in the development of numerous websites, online stores, portals, and other unique projects. Working in this company gained experience in Backend development, working with databases, servers, SEO optimization, and much more.",
+            description: "I engaged in creating projects and websites on the Laravel framework, using PHP as Backend and JavaScript as Frontend, but also dealt with React, Redux frameworks. Participated in the development of numerous websites, online stores, portals, and other unique projects. Working in this company gained experience in Backend development, working with databases, servers, SEO optimization, and much more.",
         },
 
         {
@@ -60,7 +60,7 @@ const defaultState = {
             id: 2,
             lang: 'en',
             date: "December 2022 - March 2023",
-            description: 'He completed an internship as a Frontend developer and took part in the creation of web applications and websites. Vue was chosen as the main framework, but in addition I dealt with technologies such as Vuex, Vuetify, JavaScript and much more. I also gained unique experience in working with authorization using the identity and access management system - Keycloak.'
+            description: 'I completed an internship as a Frontend developer and took part in the creation of web applications and websites. Vue was chosen as the main framework, but in addition I dealt with technologies such as Vuex, Vuetify, JavaScript and much more. I also gained unique experience in working with authorization using the identity and access management system - Keycloak.'
         },
     ]
 }

@@ -190,14 +190,14 @@ const defaultState = {
             lang: 'ua',
             project_name: 'Список справ',
             duration_work: 'Серп 2022',
-            project_description: 'Простий проект, створений протягом короткого періоду для здобуття навичок та їх покращення. Веб-додаток надає можливість створювати, редагувати та видаляти завдання. Додатково, є фільтрація завдань на "незавершені" та "всі". Крім того, на веб-сайті присутні годинники та календар у реальному часі.'
+            project_description: 'Простий проект, створений протягом короткого періоду для здобуття навичок та їх покращення. Веб-додаток надає можливість створювати, редагувати та видаляти завдання. Додатково, є фільтрація завдань на "незавершені" та "всі". Крім того, на веб-сайті присутні годинник та календар у реальному часі.'
         },
         {
             id: 1,
             lang: 'en',
             project_name: 'To do list',
             duration_work: 'Aug 2022',
-            project_description: 'A simple project created within a short period for skill acquisition and improvement. The web application provides the ability to create, edit, and delete tasks. Additionally, there is task filtering for "incomplete" and "all" tasks. Moreover, the website features real-time clocks and a calendar.'
+            project_description: 'A simple project created within a short period for skill acquisition and improvement. The web application provides the ability to create, edit, and delete tasks. Additionally, there is task filtering for "incomplete" and "all" tasks. Moreover, the website features real-time clock and a calendar.'
         },
 
         {
@@ -417,7 +417,7 @@ const defaultState = {
             lang: 'en',
             project_name: 'My resume',
             duration_work: 'Jul 2022 - Aug 2022',
-            project_description: 'The website is my resume, containing brief information about me, my work experience, technologies, and education. The site is responsive and adapts to various device sizes. The project uses a minimal set of technologies, such as HTML and CSS.'
+            project_description: 'This website is my resume, containing brief information about me, my work experience, technologies, and education. The site is responsive and adapts to various device sizes. The project uses a minimal set of technologies, such as HTML and CSS.'
         },
 
         {
@@ -615,7 +615,7 @@ const defaultState = {
             lang: 'en',
             project_name: 'Spektrum',
             duration_work: 'Jul 2023, Mar 2024',
-            project_description: 'Website for manufacturing, selling, and installing various windows and sun protection structures. Integrated a Telegram bot for convenient order tracking, and also worked with the admin panel, adding new categories, photos, and textual data.'
+            project_description: 'Website for manufacturing, selling, and installing various windows and sun protection structures. I integrated a Telegram bot for convenient order tracking, and also worked with the admin panel, adding new categories, photos, and textual data.'
         },
 
         {
@@ -637,27 +637,27 @@ const defaultState = {
             lang: 'en',
             project_name: 'Stomadeus',
             duration_work: 'Nov 2023 - Feb 2024',
-            project_description: 'The "Dentistry" project - a project I worked on from inception to production. The website features a user-friendly interface, adaptability, multilingual support, various forms, sliders, a convenient admin panel, a testimonials page, a Telegram bot, and much more. Working on this site provided unique experience in SEO, including embedding various meta tags and attributes, improving page speed, creating a sitemap, semantics, adding microdata and analytics, overall optimization, and website promotion in search engines, and more.'
+            project_description: 'The "Dentistry" project - a project I worked on from inception to production. The website features a user-friendly interface, adaptability, multilingual support, various forms, sliders, a convenient admin panel, a testimonials page, a Telegram bot, and much more. Working on this site I gained unique experience in SEO, including embedding various meta tags and attributes, improving page speed, creating a sitemap, semantics, adding microdata and analytics, overall optimization, and website promotion in search engines, and more.'
         },
 
         {
             id: 24,
             lang: 'ru',
-            project_name: 'Stomadeus',
+            project_name: 'Lavbet',
             duration_work: 'Окт 2023 - Февр 2024',
             project_description: 'Букмекерский сайт спортинвых ставок. Один из лучших моих проектов на основе фреймворка React разработан по принципу Single Page Aplication. Сайт имеет возможность авторизации, в том числе и через социальные сети, переключение светлой/темной тем, поиск, множество категорий спорта, удобный интерфейс сайта, страницы профиля и многое другое. В качестве меннеджера состояния используется Redux, в котором хранятся почти все данные о сайте, начиная от информации про аккаунт пользователя, заканчивая списком категорий и матчей.',
         },
         {
             id: 24,
             lang: 'ua',
-            project_name: 'Stomadeus',
+            project_name: 'Lavbet',
             duration_work: 'Жовт 2023 - Лют 2024',
             project_description: 'Сайт спортивних ставок. Один з моїх кращих проектів на основі фреймворка React, розроблений за принципом Single Page Application. Сайт має можливість автентифікації, включаючи через соціальні мережі, перемикання світлої/темної теми, можливість пошуку, багато категорій спорту, зручний інтерфейс, сторінки профілю та багато іншого. Redux використовується як менеджер стану, в якому зберігається майже вся інформація про сайт, від інформації про обліковий запис користувача до списку категорій та матчів.'
         },
         {
             id: 24,
             lang: 'en',
-            project_name: 'Stomadeus',
+            project_name: 'Lavbet',
             duration_work: 'Oct 2023 - Feb 2024',
             project_description: 'A sports betting website. One of my best projects based on the React framework developed as a Single Page Application. The site features authentication, including via social networks, light/dark theme switching, search functionality, numerous sports categories, a user-friendly interface, profile pages, and much more. Redux is used as the state manager, storing almost all data about the site, from user account information to the list of categories and matches.'
         },

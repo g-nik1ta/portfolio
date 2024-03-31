@@ -64,6 +64,12 @@ const Project = () => {
             9;
     const [currentPagePagination, setCurrentPagePagintaion] = useState(1);
     const projectsRef = useRef()
+    useEffect(() => {
+        window.scrollTo({
+            top: projectsRef.current.offsetTop - 160,
+            behavior: "smooth"
+        });
+    }, [currentPagePagination])
 
     const [sortProjectsPaginate, setSortProjectsPaginate] = useState([]);
     useEffect(() => {

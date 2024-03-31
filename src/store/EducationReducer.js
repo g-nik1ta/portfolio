@@ -41,7 +41,7 @@ const defaultState = {
             title: 'Volodymyr Vynnychenko Central Ukrainian State University',
             education_name: 'Computer science',
             date: "Sep 2021 - Still",
-            description: "Currently, I am studying at a university in Ukraine for a Bachelor's degree in Computer Science. I am learning various technologies both in the Backend and Frontend areas.",
+            description: "Currently, I am studying at the university in Ukraine for a Bachelor's degree in Computer Science. I am learning various technologies both in the Backend and Frontend areas.",
         },
 
         {
@@ -66,7 +66,7 @@ const defaultState = {
             title: 'CyberBionic systematics',
             education_name: 'Frontend',
             date: "Jun 2022 - Nov 2022",
-            description: "Successfully completed Frontend Developer (ReactJS) courses, mastering numerous technologies, gaining unique knowledge, and creating several projects. Learned the basics of the React framework, the Redux state manager, the JavaScript programming language, and more.",
+            description: "I successfully completed Frontend Developer (ReactJS) courses, mastering numerous technologies, gaining unique knowledge, and creating several projects. I learned the basics of the React framework, the Redux state manager, the JavaScript programming language, and more.",
         },
     ]
 }
