@@ -1,3 +1,4 @@
+import PostService from "API/PostService";
 import About from "components/About/About";
 import Contacts from "components/Contacts/Contacts";
 import Education from "components/Education/Education";
@@ -8,12 +9,20 @@ import Modal from "components/Modal/Modal";
 import ModalProject from "components/Modal/ModalProject/ModalProject";
 import Project from "components/Project/Project";
 import Skills from "components/Skills/Skills";
-import React from "react";
+import React, { useEffect } from "react";
 import { useTranslation } from "react-i18next";
 import 'styles/App.scss';
 
 function App() {
     const { t } = useTranslation();
+    const fetchPostsAndCategory = async () => {
+        const productsResponse = await PostService.getAllProducts();
+        console.log(productsResponse);
+    };
+
+    useEffect(() => {
+        // fetchPostsAndCategory();
+    }, []);
 
     return (
         <div className="App">

@@ -25,6 +25,8 @@ import FigmaLogo from 'svg/skills/others/FigmaLogo';
 import AdobePhotoshopLogo from 'svg/skills/others/AdobePhotoshopLogo';
 import VsCodeLogo from 'svg/skills/others/VsCodeLogo';
 import TrelloLogo from 'svg/skills/others/TrelloLogo';
+import NodeJS from 'svg/skills/backend/NodeJS';
+import ExpressJS from 'svg/skills/backend/ExpressJS';
 
 export const frontendLogo = [
     { id: 1, svg: <HtmlLogo />, title: 'HTML' },
@@ -43,6 +45,8 @@ export const frontendLogo = [
 ]
 
 export const backendLogo = [
+    { id: 7, svg: <NodeJS />, title: 'NodeJS' },
+    { id: 6, svg: <ExpressJS />, title: 'Express.js' },
     { id: 1, svg: <PhpLogo />, title: 'Php' },
     { id: 2, svg: <LaravelLogo />, title: 'Laravel' },
     { id: 3, svg: <MySqlLogo />, title: 'MySQL' },
