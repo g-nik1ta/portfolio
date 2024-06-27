@@ -1,8 +1,8 @@
 import { collection, doc, getDoc, getDocs, getFirestore } from 'firebase/firestore';
-import { app } from 'firebaseInit';
+import { app } from 'firebase.js';
 
 const db = getFirestore(app);
-const testRef = doc(db, "test", "table");
+const testRef = collection(db, "test");
 
 function wait() {
     return new Promise(resolve => {
@@ -16,9 +16,11 @@ export default class PostService {
     }
 
     static async getAllProducts() {
-        const querySnapshot = await getDoc(testRef);
-        if (querySnapshot.exists()) {
-            console.log("Document data:", querySnapshot.data());
-        } else console.log("No such document!");
+        let arr = []; 
+        const querySnapshot = await getDocs(testRef);
+        querySnapshot.forEach((doc) => {
+            arr.push(doc.data())
+        });
+        return arr;
     }
 }

@@ -21,7 +21,7 @@ function App() {
     };
 
     useEffect(() => {
-        // fetchPostsAndCategory();
+        fetchPostsAndCategory();
     }, []);
 
     return (
