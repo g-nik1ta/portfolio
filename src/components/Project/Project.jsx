@@ -63,10 +63,16 @@ const Project = () => {
             :
             9;
     const [currentPagePagination, setCurrentPagePagintaion] = useState(1);
+    const [isFirstRender, setIsFirstRender] = useState(true);
     const projectsRef = useRef()
     useEffect(() => {
+        if (isFirstRender) {
+            setIsFirstRender(false)
+            return
+        }
+
         window.scrollTo({
-            top: projectsRef.current.offsetTop - 160,
+            top: projectsRef.current.offsetTop - 180,
             behavior: "smooth"
         });
     }, [currentPagePagination])
