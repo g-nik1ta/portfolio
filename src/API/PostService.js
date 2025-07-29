@@ -2,7 +2,7 @@ import { collection, doc, getDoc, getDocs, getFirestore } from 'firebase/firesto
 import { app } from 'firebase.js';
 
 const db = getFirestore(app);
-const testRef = collection(db, "test");
+const usersRef = collection(db, "users");
 
 function wait() {
     return new Promise(resolve => {
@@ -15,9 +15,9 @@ export default class PostService {
         await wait();
     }
 
-    static async getAllProducts() {
+    static async getUsers() {
         let arr = []; 
-        const querySnapshot = await getDocs(testRef);
+        const querySnapshot = await getDocs(usersRef);
         querySnapshot.forEach((doc) => {
             arr.push(doc.data())
         });

@@ -19,7 +19,7 @@ const Header = () => {
     return (
         <header>
             <div className="inner container_box">
-                <a href='' className="logo pointer">
+                <a href='/' className="logo pointer">
                     <Logo />
                     <span className="title">Portfolio</span>
                 </a>

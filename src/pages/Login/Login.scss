@@ -1,0 +1,115 @@
+@import "styles/common_styles/index";
+
+@mixin labelStyle {
+    font-size: 10px;
+    top: -2px;
+}
+
+.login-page {
+    display: flex;
+    flex-direction: column;
+
+    .polygon-gradient_background {
+        flex-grow: 1;
+        display: flex;
+        align-items: center;
+        margin-bottom: 0;
+
+        .title {
+            font-size: 40px;
+            text-align: center;
+            font-weight: 600;
+            margin-top: 20px;
+            color: #f2f3f4;
+        }
+
+        form {
+            margin-top: 12px;
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+
+            .input_wrapper {
+                width: 250px;
+                border: 2px solid rgba(1, 76, 227, 0.223);
+                position: relative;
+                border-radius: 8px;
+                display: flex;
+                transition: .2s ease-in-out;
+
+                @media (hover: hover) {
+                    &:hover {
+                        label {
+                            @include labelStyle;
+                        }
+
+                        input {
+                            background-color: rgba(0, 85, 255, 0.173);
+                        }
+                    }
+                }
+
+                input:focus+label {
+                    @include labelStyle;
+                }
+
+                label {
+                    transition: inherit;
+                    position: absolute;
+                    left: 8px;
+                    font-size: 13px;
+                    top: 50%;
+                    transform: translateY(-50%);
+
+                    &.active {
+                        @include labelStyle;
+                    }
+
+                }
+
+                input {
+                    transition: inherit;
+                    border-radius: 6px;
+                    padding: 4px 4px 4px 8px;
+                    width: 100%;
+                    height: 100%;
+                    border: none;
+                    outline: none;
+                    background-color: rgba(0, 85, 255, 0.127);
+                    font-size: 12px;
+                    caret-color: #fff;
+                    color: #fff;
+                }
+            }
+
+            button {
+                cursor: pointer;
+                margin: 0 auto;
+                width: 100%;
+                outline: none;
+                border: 1px solid rgba(0, 46, 137, 0.76);
+                background-color: rgba(0, 27, 80, 0.73);
+                border-radius: 8px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                overflow: hidden;
+                padding: 4px 24px;
+                color: $color-blue;
+                transition: .1s ease-in-out;
+
+                &.disabled {
+                    user-select: none;
+                    pointer-events: none;
+                    opacity: .5;
+                }
+
+                @media (hover: hover) {
+                    &:hover {
+                        background-color: rgba(0, 40, 120, 0.586);
+                    }
+                }
+            }
+        }
+    }
+}

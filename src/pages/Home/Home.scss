@@ -1,0 +1,17 @@
+@import "styles/common_styles/index";
+
+.home-page section {
+    padding-bottom: 100px;
+}
+
+@media screen and (max-width: $lg-size-max-width) {
+    .home-page section {
+        padding-bottom: 80px;
+    }
+}
+
+@media screen and (max-width: $lg-size-max-width) {
+    .home-page section {
+        padding-bottom: 54px;
+    }
+}

@@ -33,15 +33,25 @@
     color: #fff;
     display: flex;
     flex-direction: column;
+    min-height: inherit;
 }
 
 main {
+    flex-grow: 1;
     margin-top: 80px;
     background-color: $color-black;
 }
 
-section {
-    padding-bottom: 100px;
+.polygon-gradient_background {
+    padding-bottom: 16px;
+    background: linear-gradient(38.73deg, rgba(204, 0, 187, 0.15) 0%, rgba(201, 32, 184, 0) 50%), linear-gradient(141.27deg, rgba(0, 70, 209, 0) 50%, rgba(0, 70, 209, 0.15) 100%);
+    clip-path: polygon(0px 0px, 100% 0px, 100% 100%, 30% 94%, 0px 100%);
+    margin-bottom: 100px;
+
+    &:last-of-type:not(.login) {
+        margin-bottom: 0;
+        clip-path: polygon(0px 0px, 100% 0px, 100% 100%, 30% 98%, 0px 100%);
+    }
 }
 
 .container_box {
@@ -51,17 +61,6 @@ section {
     margin: 0 auto;
 }
 
-.polygon-gradient_background {
-    padding-bottom: 16px;
-    background: linear-gradient(38.73deg, rgba(204, 0, 187, 0.15) 0%, rgba(201, 32, 184, 0) 50%), linear-gradient(141.27deg, rgba(0, 70, 209, 0) 50%, rgba(0, 70, 209, 0.15) 100%);
-    clip-path: polygon(0px 0px, 100% 0px, 100% 100%, 30% 94%, 0px 100%);
-    margin-bottom: 100px;
-
-    &:last-of-type {
-        margin-bottom: 0;
-        clip-path: polygon(0px 0px, 100% 0px, 100% 100%, 30% 98%, 0px 100%);
-    }
-}
 
 
 
@@ -73,45 +72,32 @@ section {
 }
 
 @media screen and (max-width: $lg-size-max-width) {
-    main {
-        margin-top: 64px;
-    }
-
-    section {
-        padding-bottom: 80px;
-    }
-
-
     .polygon-gradient_background {
         margin-bottom: 60px;
         clip-path: polygon(0px 0px, 100% 0px, 100% 100%, 30% 96%, 0px 100%);
 
-        &:last-of-type {
+        &:last-of-type:not(.login) {
             clip-path: polygon(0px 0px, 100% 0px, 100% 100%, 30% 99%, 0px 100%);
         }
     }
-}
 
-@media screen and (max-width: $lg-size-max-width) {
-    section {
-        padding-bottom: 54px;
+    main {
+        margin-top: 64px;
     }
 }
-
 
 @media screen and (max-width: $sm-size-max-width) {
-    .container_box {
-        padding-left: 16px;
-        padding-right: 16px;
-    }
-
-
     .polygon-gradient_background {
         margin-bottom: 48px;
         clip-path: polygon(0px 0px, 100% 0px, 100% 100%, 30% 97%, 0px 100%);
 
-        &:last-of-type {
+        &:last-of-type:not(.login) {
             clip-path: polygon(0px 0px, 100% 0px, 100% 100%, 30% 99.3%, 0px 100%);
         }
+    }
+
+    .container_box {
+        padding-left: 16px;
+        padding-right: 16px;
     }
 }
