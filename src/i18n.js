@@ -28,7 +28,7 @@ i18n
     .use(initReactI18next) // passes i18n down to react-i18next
     .init({
         resources,
-        lng: savedLang || 'en', // default language
+        lng: savedLang || lng, // default language
         detection: {
             checkWhitelist: true,
         },

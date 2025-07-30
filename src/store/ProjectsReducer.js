@@ -297,6 +297,12 @@ const defaultState = {
             appHref: "",
             type_id: 1,
             preview: "proxy/1.jpg",
+            images: [
+                "proxy/1.jpg",
+                "proxy/2.jpg",
+                "proxy/3.jpg",
+                "proxy/4.jpg",
+            ],
             technologies: [
                 "React",
                 "JavaScript",
@@ -315,6 +321,12 @@ const defaultState = {
             appHref: "",
             type_id: 1,
             preview: "portal/1.jpg",
+            images: [
+                "portal/1.jpg",
+                "portal/2.jpg",
+                "portal/3.jpg",
+                "portal/4.jpg",
+            ],
             technologies: [
                 "Laravel",
                 "PHP",
@@ -336,6 +348,14 @@ const defaultState = {
             appHref: "https://g-nik1ta.github.io/Finance-App/",
             type_id: 3,
             preview: "finance_app/1.jpg",
+            images: [
+                "finance_app/1.jpg",
+                "finance_app/2.jpg",
+                "finance_app/3.jpg",
+                "finance_app/4.jpg",
+                "finance_app/5.jpg",
+                "finance_app/6.jpg",
+            ],
             technologies: [
                 "React",
                 "Redux",
@@ -364,6 +384,10 @@ const defaultState = {
             appHref: "",
             type_id: 1,
             preview: "profile_person/1.jpg",
+            images: [
+                "profile_person/1.jpg",
+                "profile_person/2.jpg",
+            ],
             technologies: [
                 "Laravel",
                 "PHP",
@@ -385,6 +409,13 @@ const defaultState = {
             appHref: "https://bookshelf-pi.vercel.app/",
             type_id: 3,
             preview: "bookshelf/1.jpg",
+            images: [
+                "bookshelf/1.jpg",
+                "bookshelf/2.jpg",
+                "bookshelf/3.jpg",
+                "bookshelf/4.jpg",
+                "bookshelf/5.jpg",
+            ],
             technologies: [
                 "Vue",
                 "Pinia",
@@ -401,6 +432,19 @@ const defaultState = {
             appHref: "",
             type_id: 1,
             preview: "nexchance/1.jpg",
+            images: [
+                "nexchance/1.jpg",
+                "nexchance/2.jpg",
+                "nexchance/3.jpg",
+                "nexchance/4.jpg",
+                "nexchance/5.jpg",
+                "nexchance/6.jpg",
+                "nexchance/7.jpg",
+                "nexchance/8.jpg",
+                "nexchance/9.jpg",
+                "nexchance/10.jpg",
+                "nexchance/11.jpg",
+            ],
             technologies: [
                 "Laravel",
                 "PHP",
@@ -431,6 +475,11 @@ const defaultState = {
             // appHref: "https://client.dev.goseechat.com",
             type_id: 1,
             preview: "goseechat/1.jpg",
+            images: [
+                "goseechat/1.jpg",
+                "goseechat/2.jpg",
+                "goseechat/3.jpg",
+            ],
             technologies: [
                 "React",
                 "Redux",
@@ -447,6 +496,13 @@ const defaultState = {
             // appHref: "https://daniel-tp-dev.d.yeducoders.com/",
             type_id: 1,
             preview: "prelit/1.jpg",
+            images: [
+                "prelit/1.jpg",
+                "prelit/2.jpg",
+                "prelit/3.jpg",
+                "prelit/4.jpg",
+                "prelit/5.jpg",
+            ],
             technologies: [
                 "React",
                 "JavaScript",
@@ -1083,7 +1139,8 @@ const defaultState = {
             lang: "ru",
             project_name: "Proxy",
             duration_work: "Апр 2024 - Апр 2024",
-            project_description: "Фронтенд-приложение, созданное на React с серверным рендерингом (SSR) с использованием Express.js. Сборка реализована через Webpack с полной совместимостью под Node.js 14. В качестве API использовался сервис jsonplaceholder.typicode.com. Реализована маршрутизация с возможностью копирования ссылок и последующего отображения нужного контента. Приложение включает поиск и сортировку пользователей по имени, отображение постов и альбомов пользователей, а также настройку meta-тегов для SEO.",
+            project_description:
+                "Фронтенд-приложение, созданное на React с серверным рендерингом (SSR) с использованием Express.js. Сборка реализована через Webpack с полной совместимостью под Node.js 14. В качестве API использовался сервис jsonplaceholder.typicode.com. Реализована маршрутизация с возможностью копирования ссылок и последующего отображения нужного контента. Приложение включает поиск и сортировку пользователей по имени, отображение постов и альбомов пользователей, а также настройку meta-тегов для SEO.",
         },
         {
             id: 68,
@@ -1091,7 +1148,8 @@ const defaultState = {
             lang: "ua",
             project_name: "Proxy",
             duration_work: "Квіт 2024 - Квіт 2024",
-            project_description: "Фронтенд-додаток, створений на React із серверним рендерингом (SSR) з використанням Express.js. Складання реалізовано через Webpack з повною сумісністю під Node.js 14. Як API використовувався сервіс jsonplaceholder.typicode.com. Реалізовано маршрутизацію з можливістю копіювання посилань та подальшого відображення потрібного контенту. Додаток включає пошук та сортування користувачів по імені, відображення постів та альбомів користувачів, а також налаштування meta-тегів для SEO.",
+            project_description:
+                "Фронтенд-додаток, створений на React із серверним рендерингом (SSR) з використанням Express.js. Складання реалізовано через Webpack з повною сумісністю під Node.js 14. Як API використовувався сервіс jsonplaceholder.typicode.com. Реалізовано маршрутизацію з можливістю копіювання посилань та подальшого відображення потрібного контенту. Додаток включає пошук та сортування користувачів по імені, відображення постів та альбомів користувачів, а також налаштування meta-тегів для SEO.",
         },
         {
             id: 69,
@@ -1099,7 +1157,8 @@ const defaultState = {
             lang: "en",
             project_name: "Proxy",
             duration_work: "Apr 2024 - Apr 2024",
-            project_description: "A frontend application built with React using server-side rendering (SSR) powered by Express.js. The project is bundled with Webpack and fully compatible with Node.js 14. It consumes the jsonplaceholder.typicode.com API. Routing is implemented in a way that allows users to share links and access the same content directly. The application includes user search and sorting by username, displays user posts and albums, and supports custom meta tags for SEO.",
+            project_description:
+                "A frontend application built with React using server-side rendering (SSR) powered by Express.js. The project is bundled with Webpack and fully compatible with Node.js 14. It consumes the jsonplaceholder.typicode.com API. Routing is implemented in a way that allows users to share links and access the same content directly. The application includes user search and sorting by username, displays user posts and albums, and supports custom meta tags for SEO.",
         },
 
         {
@@ -1108,7 +1167,8 @@ const defaultState = {
             lang: "ru",
             project_name: "Portal",
             duration_work: "Февр 2024 - Май 2024",
-            project_description: "Современный веб-сайт для кинотеатра с акцентом на удобство и визуальную привлекательность. Реализованы основные пользовательские страницы: главная, афиша, информация о фильмах, отзывы, покупка билетов, акции, контакты, личный кабинет с историей заказов и профилем пользователя. Проект выполнен в виде одностраничного приложения (SPA) с использованием React и Redux для динамичного интерфейса. Backend — на Laravel и MySQL с REST API. Продуманная структура данных, отзывчивый дизайн, взаимодействие с сервером в реальном времени — всё для того, чтобы пользователь мог легко искать фильмы, оставлять отзывы и оформлять заказы.",
+            project_description:
+                "Современный веб-сайт для кинотеатра с акцентом на удобство и визуальную привлекательность. Реализованы основные пользовательские страницы: главная, афиша, информация о фильмах, отзывы, покупка билетов, акции, контакты, личный кабинет с историей заказов и профилем пользователя. Проект выполнен в виде одностраничного приложения (SPA) с использованием React и Redux для динамичного интерфейса. Backend — на Laravel и MySQL с REST API. Продуманная структура данных, отзывчивый дизайн, взаимодействие с сервером в реальном времени — всё для того, чтобы пользователь мог легко искать фильмы, оставлять отзывы и оформлять заказы.",
         },
         {
             id: 71,
@@ -1116,7 +1176,8 @@ const defaultState = {
             lang: "ua",
             project_name: "Portal",
             duration_work: "Лют 2024 - Трав 2024",
-            project_description: "Сучасний веб-сайт для кінотеатру з акцентом на зручність та візуальну привабливість. Реалізовано основні сторінки користувача: головна, афіша, інформація про фільми, відгуки, купівля квитків, акції, контакти, особистий кабінет з історією замовлень та профілем користувача. Проект виконаний у вигляді односторінкової програми (SPA) з використанням React та Redux для динамічного інтерфейсу. Backend - на Laravel та MySQL з REST API. Продумана структура даних, чуйний дизайн, взаємодія з сервером у реальному часі – все для того, щоб користувач міг легко шукати фільми, залишати відгуки та оформляти замовлення.",
+            project_description:
+                "Сучасний веб-сайт для кінотеатру з акцентом на зручність та візуальну привабливість. Реалізовано основні сторінки користувача: головна, афіша, інформація про фільми, відгуки, купівля квитків, акції, контакти, особистий кабінет з історією замовлень та профілем користувача. Проект виконаний у вигляді односторінкової програми (SPA) з використанням React та Redux для динамічного інтерфейсу. Backend - на Laravel та MySQL з REST API. Продумана структура даних, чуйний дизайн, взаємодія з сервером у реальному часі – все для того, щоб користувач міг легко шукати фільми, залишати відгуки та оформляти замовлення.",
         },
         {
             id: 72,
@@ -1124,16 +1185,18 @@ const defaultState = {
             lang: "en",
             project_name: "Portal",
             duration_work: "Feb 2024 - May 2024",
-            project_description: "A modern cinema website focused on user convenience and visual appeal. Key user-facing pages were implemented, including the homepage, movie listings, film details, reviews, ticket purchasing, promotions, contact page, and a personal account section with order history and profile management. The project was developed as a Single Page Application (SPA) using React and Redux for a dynamic and responsive UI. The backend was built with Laravel and MySQL, communicating via a RESTful API. The application features a well-structured data model, responsive design, and real-time server interaction — all aimed at making it easy for users to browse movies, leave reviews, and purchase tickets.",
+            project_description:
+                "A modern cinema website focused on user convenience and visual appeal. Key user-facing pages were implemented, including the homepage, movie listings, film details, reviews, ticket purchasing, promotions, contact page, and a personal account section with order history and profile management. The project was developed as a Single Page Application (SPA) using React and Redux for a dynamic and responsive UI. The backend was built with Laravel and MySQL, communicating via a RESTful API. The application features a well-structured data model, responsive design, and real-time server interaction — all aimed at making it easy for users to browse movies, leave reviews, and purchase tickets.",
         },
-        
+
         {
             id: 73,
             companyId: 27,
             lang: "ru",
             project_name: "Finance App",
             duration_work: "Май 2024 - Май 2024",
-            project_description: "Небольшое приложение для отслеживания личных финансов, изначально созданное как пет-проект, а позже использованное в качестве курсовой работы в университете. Это одностраничное приложение (SPA), разработанное с использованием React.js и Redux, с системой авторизации и несколькими основными страницами. После входа в систему пользователь попадает на страницу профиля, главную страницу с отображением финансовой информации и операций, а также на страницу категорий. Можно вручную создавать категории и транзакции, привязывать категории к транзакциям, указывать сумму и дату. В качестве базы данных и бэкенда используется Firebase.",
+            project_description:
+                "Небольшое приложение для отслеживания личных финансов, изначально созданное как пет-проект, а позже использованное в качестве курсовой работы в университете. Это одностраничное приложение (SPA), разработанное с использованием React.js и Redux, с системой авторизации и несколькими основными страницами. После входа в систему пользователь попадает на страницу профиля, главную страницу с отображением финансовой информации и операций, а также на страницу категорий. Можно вручную создавать категории и транзакции, привязывать категории к транзакциям, указывать сумму и дату. В качестве базы данных и бэкенда используется Firebase.",
         },
         {
             id: 74,
@@ -1141,7 +1204,8 @@ const defaultState = {
             lang: "ua",
             project_name: "Finance App",
             duration_work: "Трав 2024 - Трав 2024",
-            project_description: "Невеликий додаток для відстеження особистих фінансів, спочатку створений як пет-проект, а пізніше використаний як курсова робота в університеті. Це односторінковий додаток (SPA), розроблений з використанням React.js та Redux, з системою авторизації та кількома основними сторінками. Після входу в систему користувач потрапляє на сторінку профілю, головну сторінку з відображенням фінансової інформації та операцій, а також сторінку категорій. Можна вручну створювати категорії та транзакції, прив'язувати категорії до транзакцій, вказувати суму та дату. Як база даних і бекенд використовується Firebase.",
+            project_description:
+                "Невеликий додаток для відстеження особистих фінансів, спочатку створений як пет-проект, а пізніше використаний як курсова робота в університеті. Це односторінковий додаток (SPA), розроблений з використанням React.js та Redux, з системою авторизації та кількома основними сторінками. Після входу в систему користувач потрапляє на сторінку профілю, головну сторінку з відображенням фінансової інформації та операцій, а також сторінку категорій. Можна вручну створювати категорії та транзакції, прив'язувати категорії до транзакцій, вказувати суму та дату. Як база даних і бекенд використовується Firebase.",
         },
         {
             id: 75,
@@ -1149,9 +1213,9 @@ const defaultState = {
             lang: "en",
             project_name: "Finance App",
             duration_work: "May 2024 - May 2024",
-            project_description: "A personal finance tracking app initially built as a side project and later used as a university coursework project. This is a Single Page Application (SPA) developed with React.js and Redux, featuring user authentication and several functional pages. After logging in, users can access a profile page, a main dashboard displaying financial statistics and operations, as well as a categories page. Users can manually create categories and transactions, assign categories to each transaction, and specify the amount and date. Firebase was used for both authentication and as the main cloud database and backend service.",
+            project_description:
+                "A personal finance tracking app initially built as a side project and later used as a university coursework project. This is a Single Page Application (SPA) developed with React.js and Redux, featuring user authentication and several functional pages. After logging in, users can access a profile page, a main dashboard displaying financial statistics and operations, as well as a categories page. Users can manually create categories and transactions, assign categories to each transaction, and specify the amount and date. Firebase was used for both authentication and as the main cloud database and backend service.",
         },
-
 
         {
             id: 76,
@@ -1159,7 +1223,8 @@ const defaultState = {
             lang: "ru",
             project_name: "Profile Person",
             duration_work: "Май 2024 - Май 2024",
-            project_description: "Небольшое одностраничное приложение, разработанное на React с использованием Redux и Material UI. Приложение содержит страницу профиля с анимацией, редактируемыми данными и возможностью загрузки изображений. В качестве бэкенда использовался Laravel с базой данных MySQL",
+            project_description:
+                "Небольшое одностраничное приложение, разработанное на React с использованием Redux и Material UI. Приложение содержит страницу профиля с анимацией, редактируемыми данными и возможностью загрузки изображений. В качестве бэкенда использовался Laravel с базой данных MySQL",
         },
         {
             id: 77,
@@ -1167,7 +1232,8 @@ const defaultState = {
             lang: "ua",
             project_name: "Profile Person",
             duration_work: "Трав 2024 - Трав 2024",
-            project_description: "Невеликий односторінковий додаток, розроблений на React з використанням Redux та Material UI. Програма містить сторінку профілю з анімацією, редагованими даними та можливістю завантаження зображень. Як бекенд використовувався Laravel з базою даних MySQL.",
+            project_description:
+                "Невеликий односторінковий додаток, розроблений на React з використанням Redux та Material UI. Програма містить сторінку профілю з анімацією, редагованими даними та можливістю завантаження зображень. Як бекенд використовувався Laravel з базою даних MySQL.",
         },
         {
             id: 78,
@@ -1175,7 +1241,8 @@ const defaultState = {
             lang: "en",
             project_name: "Profile Person",
             duration_work: "May 2024 - May 2024",
-            project_description: "A small single-page application built with React, using Redux and Material UI. The app features a profile page with animations, editable user data, and image upload functionality. The backend was developed with Laravel and a MySQL database.",
+            project_description:
+                "A small single-page application built with React, using Redux and Material UI. The app features a profile page with animations, editable user data, and image upload functionality. The backend was developed with Laravel and a MySQL database.",
         },
 
         {
@@ -1184,7 +1251,8 @@ const defaultState = {
             lang: "ru",
             project_name: "Bookshelf",
             duration_work: "Февр 2025 - Февр 2025",
-            project_description: "Веб-приложение \"Книжная полка\", разработанное в рамках учебной практики. Проект реализован как SPA на Vue.js с использованием Vue Router, Pinia и json-server. В приложении предусмотрены регистрация и авторизация пользователей, просмотр, добавление, редактирование и удаление книг. Каждая книга включает название, автора, год издания и описание. Данные хранятся в моковой базе через RESTful API. Реализована валидация форм и переходы между страницами. Фронтенд размещён через Vercel, а данные сервера обрабатывались через render.com.",
+            project_description:
+                'Веб-приложение "Книжная полка", разработанное в рамках учебной практики. Проект реализован как SPA на Vue.js с использованием Vue Router, Pinia и json-server. В приложении предусмотрены регистрация и авторизация пользователей, просмотр, добавление, редактирование и удаление книг. Каждая книга включает название, автора, год издания и описание. Данные хранятся в моковой базе через RESTful API. Реализована валидация форм и переходы между страницами. Фронтенд размещён через Vercel, а данные сервера обрабатывались через render.com.',
         },
         {
             id: 80,
@@ -1192,7 +1260,8 @@ const defaultState = {
             lang: "ua",
             project_name: "Bookshelf",
             duration_work: "Лют 2025 - Лют 2025",
-            project_description: "Веб-додаток \"Книжкова полиця\", розроблений у рамках навчальної практики. Проект реалізований як SPA на Vue.js з використанням Vue Router, Pinia та json-server. У програмі передбачено реєстрацію та авторизацію користувачів, перегляд, додавання, редагування та видалення книг. Кожна книга включає назву, автора, рік видання та опис. Дані зберігаються у моковій базі через RESTful API. Реалізовано валідацію форм та переходи між сторінками. Фронтенд розміщено через Vercel, а дані сервера обробляли через render.com.",
+            project_description:
+                'Веб-додаток "Книжкова полиця", розроблений у рамках навчальної практики. Проект реалізований як SPA на Vue.js з використанням Vue Router, Pinia та json-server. У програмі передбачено реєстрацію та авторизацію користувачів, перегляд, додавання, редагування та видалення книг. Кожна книга включає назву, автора, рік видання та опис. Дані зберігаються у моковій базі через RESTful API. Реалізовано валідацію форм та переходи між сторінками. Фронтенд розміщено через Vercel, а дані сервера обробляли через render.com.',
         },
         {
             id: 81,
@@ -1200,7 +1269,8 @@ const defaultState = {
             lang: "en",
             project_name: "Bookshelf",
             duration_work: "Feb 2025 - Feb 2025",
-            project_description: "\"Bookshelf\" web application developed as part of an academic project. The project is implemented as a SPA using Vue.js, Vue Router, Pinia, and json-server. The app includes user registration and login, as well as functionality to view, add, edit, and delete books. Each book contains a title, author, publication year, and description. Data is managed via a mock RESTful API. Form validation and navigation between pages are also implemented. The frontend is deployed via Vercel, and the backend (mock API) is hosted on render.com.",
+            project_description:
+                '"Bookshelf" web application developed as part of an academic project. The project is implemented as a SPA using Vue.js, Vue Router, Pinia, and json-server. The app includes user registration and login, as well as functionality to view, add, edit, and delete books. Each book contains a title, author, publication year, and description. Data is managed via a mock RESTful API. Form validation and navigation between pages are also implemented. The frontend is deployed via Vercel, and the backend (mock API) is hosted on render.com.',
         },
 
         {
@@ -1209,7 +1279,8 @@ const defaultState = {
             lang: "ru",
             project_name: "Nexchance App",
             duration_work: "Июнь 2024 - Июль 2025",
-            project_description: "Крупная ERP-система, предназначенная для управления различными аспектами бизнеса: товарооборотом, логистикой, интернет-магазинами, складским учётом, закупками, бухгалтерией и многим другим. Проект включал в себя огромное количество модулей, страниц, компонентов и элементов интерфейса — от аналитических панелей и таблиц до модальных окон, форм и вкладок. Архитектура проекта поддерживала высокую интерактивность на фронтенде в сочетании с надёжной и гибкой серверной частью. В разработке использовался широкий современный стек технологий: на бэкенде — Laravel и PostgreSQL, на фронтенде — Vue.js (с использованием Pinia и Vuetify), а также множество вспомогательных библиотек и инструментов для масштабируемой и удобной разработки. Система включала сложную бизнес-логику, глубокую интеграцию с базой данных (в том числе триггеры, процедуры, сотни таблиц), а также множество сторонних API. Также были реализованы современные подходы к архитектуре, стилю кода и развёртыванию — с использованием TypeScript, Sass, Tailwind, Vite/Webpack, ESLint, Prettier и CI/CD.",
+            project_description:
+                "Крупная ERP-система, предназначенная для управления различными аспектами бизнеса: товарооборотом, логистикой, интернет-магазинами, складским учётом, закупками, бухгалтерией и многим другим. Проект включал в себя огромное количество модулей, страниц, компонентов и элементов интерфейса — от аналитических панелей и таблиц до модальных окон, форм и вкладок. Архитектура проекта поддерживала высокую интерактивность на фронтенде в сочетании с надёжной и гибкой серверной частью. В разработке использовался широкий современный стек технологий: на бэкенде — Laravel и PostgreSQL, на фронтенде — Vue.js (с использованием Pinia и Vuetify), а также множество вспомогательных библиотек и инструментов для масштабируемой и удобной разработки. Система включала сложную бизнес-логику, глубокую интеграцию с базой данных (в том числе триггеры, процедуры, сотни таблиц), а также множество сторонних API. Также были реализованы современные подходы к архитектуре, стилю кода и развёртыванию — с использованием TypeScript, Sass, Tailwind, Vite/Webpack, ESLint, Prettier и CI/CD.",
         },
         {
             id: 83,
@@ -1217,7 +1288,8 @@ const defaultState = {
             lang: "ua",
             project_name: "Nexchance App",
             duration_work: "Черв 2024 - Лип 2025",
-            project_description: "Велика ERP-система, призначена для управління різними аспектами бізнесу: товарообігом, логістикою, інтернет-магазинами, складським обліком, закупівлями, бухгалтерією та багатьма іншими. Проект включав величезну кількість модулів, сторінок, компонентів і елементів інтерфейсу - від аналітичних панелей і таблиць до модальних вікон, форм і вкладок. Архітектура проекту підтримувала високу інтерактивність на фронтенді у поєднанні з надійною та гнучкою серверною частиною. У розробці використовувався широкий сучасний стек технологій: на бекенді - Laravel і PostgreSQL, на фронтенді - Vue.js (з використанням Pinia та Vuetify), а також безліч допоміжних бібліотек та інструментів для масштабованої та зручної розробки. Система включала складну бізнес-логіку, глибоку інтеграцію з базою даних (зокрема тригери, процедури, сотні таблиць), і навіть безліч сторонніх API. Також були реалізовані сучасні підходи до архітектури, стилю коду та розгортання – з використанням TypeScript, Sass, Tailwind, Vite/Webpack, ESLint, Prettier та CI/CD.",
+            project_description:
+                "Велика ERP-система, призначена для управління різними аспектами бізнесу: товарообігом, логістикою, інтернет-магазинами, складським обліком, закупівлями, бухгалтерією та багатьма іншими. Проект включав величезну кількість модулів, сторінок, компонентів і елементів інтерфейсу - від аналітичних панелей і таблиць до модальних вікон, форм і вкладок. Архітектура проекту підтримувала високу інтерактивність на фронтенді у поєднанні з надійною та гнучкою серверною частиною. У розробці використовувався широкий сучасний стек технологій: на бекенді - Laravel і PostgreSQL, на фронтенді - Vue.js (з використанням Pinia та Vuetify), а також безліч допоміжних бібліотек та інструментів для масштабованої та зручної розробки. Система включала складну бізнес-логіку, глибоку інтеграцію з базою даних (зокрема тригери, процедури, сотні таблиць), і навіть безліч сторонніх API. Також були реалізовані сучасні підходи до архітектури, стилю коду та розгортання – з використанням TypeScript, Sass, Tailwind, Vite/Webpack, ESLint, Prettier та CI/CD.",
         },
         {
             id: 84,
@@ -1225,7 +1297,8 @@ const defaultState = {
             lang: "en",
             project_name: "Nexchance App",
             duration_work: "Jun 2024 - Jul 2025",
-            project_description: "Large-scale ERP system designed to manage a wide range of business operations, including inventory turnover, logistics, online store integration, warehouse management, procurement, accounting, and more. The system included an extensive number of modules, pages, components, and interface elements — from dashboards and analytics to modal windows, complex tables, and multi-step forms. The architecture supported a highly dynamic and interactive frontend combined with a robust backend. The project utilized a diverse and modern tech stack: Laravel and PostgreSQL on the backend, Vue.js (along with Pinia and Vuetify) on the frontend, and various frontend tools and libraries to support scalable development. The system featured complex business logic, deep database integrations (including triggers, procedures, and hundreds of related tables), as well as multiple third-party API integrations. The application followed best practices in terms of code style, component organization, data flow, and deployment, using tools such as TypeScript, Sass, Tailwind, Vite/Webpack, ESLint, Prettier, and CI/CD pipelines.",
+            project_description:
+                "Large-scale ERP system designed to manage a wide range of business operations, including inventory turnover, logistics, online store integration, warehouse management, procurement, accounting, and more. The system included an extensive number of modules, pages, components, and interface elements — from dashboards and analytics to modal windows, complex tables, and multi-step forms. The architecture supported a highly dynamic and interactive frontend combined with a robust backend. The project utilized a diverse and modern tech stack: Laravel and PostgreSQL on the backend, Vue.js (along with Pinia and Vuetify) on the frontend, and various frontend tools and libraries to support scalable development. The system featured complex business logic, deep database integrations (including triggers, procedures, and hundreds of related tables), as well as multiple third-party API integrations. The application followed best practices in terms of code style, component organization, data flow, and deployment, using tools such as TypeScript, Sass, Tailwind, Vite/Webpack, ESLint, Prettier, and CI/CD pipelines.",
         },
 
         {
@@ -1234,7 +1307,8 @@ const defaultState = {
             lang: "ru",
             project_name: "GoSeeChat",
             duration_work: "Июль 2025 - Июль 2025",
-            project_description: "Проект, представляющий собой полноценную социальную сеть. В системе реализованы такие функции, как новостная лента, публикации, фото и видео, обмен сообщениями, пользовательские профили, уведомления и многое другое. Моя задача заключалась в доработке некоторых блоков клиентской части. Работа велась с использованием React, Redux и JavaScript. Основной упор делался на разработку интерфейсов, взаимодействие с API и интеграцию функциональности в существующую архитектуру проекта.",
+            project_description:
+                "Проект, представляющий собой полноценную социальную сеть. В системе реализованы такие функции, как новостная лента, публикации, фото и видео, обмен сообщениями, пользовательские профили, уведомления и многое другое. Моя задача заключалась в доработке некоторых блоков клиентской части. Работа велась с использованием React, Redux и JavaScript. Основной упор делался на разработку интерфейсов, взаимодействие с API и интеграцию функциональности в существующую архитектуру проекта.",
         },
         {
             id: 86,
@@ -1242,7 +1316,8 @@ const defaultState = {
             lang: "ua",
             project_name: "GoSeeChat",
             duration_work: "Лип 2025 - Лип 2025",
-            project_description: "Проект, що є повноцінною соціальною мережею. В системі реалізовані такі функції, як стрічка новин, публікації, фото і відео, обмін повідомленнями, профілі користувача, повідомлення та багато іншого. Моє завдання полягало у доопрацюванні деяких блоків клієнтської частини. Робота велася з використанням React, Redux та JavaScript. Основний акцент робився на розробку інтерфейсів, взаємодію з API та інтеграцію функціональності в існуючу архітектуру проекту.",
+            project_description:
+                "Проект, що є повноцінною соціальною мережею. В системі реалізовані такі функції, як стрічка новин, публікації, фото і відео, обмін повідомленнями, профілі користувача, повідомлення та багато іншого. Моє завдання полягало у доопрацюванні деяких блоків клієнтської частини. Робота велася з використанням React, Redux та JavaScript. Основний акцент робився на розробку інтерфейсів, взаємодію з API та інтеграцію функціональності в існуючу архітектуру проекту.",
         },
         {
             id: 87,
@@ -1250,7 +1325,8 @@ const defaultState = {
             lang: "en",
             project_name: "GoSeeChat",
             duration_work: "Jul 2025 - Jul 2025",
-            project_description: "Project representing a full-fledged social network. The platform includes features such as a news feed, posts, photos and videos, messaging, user profiles, notifications, and more. My role involved refining and extending various frontend components. The work was done using React, Redux, and JavaScript, with a focus on building user interfaces, interacting with APIs, and integrating functionality into the existing project architecture.",
+            project_description:
+                "Project representing a full-fledged social network. The platform includes features such as a news feed, posts, photos and videos, messaging, user profiles, notifications, and more. My role involved refining and extending various frontend components. The work was done using React, Redux, and JavaScript, with a focus on building user interfaces, interacting with APIs, and integrating functionality into the existing project architecture.",
         },
 
         {
@@ -1259,7 +1335,8 @@ const defaultState = {
             lang: "ru",
             project_name: "Prelit",
             duration_work: "Июль 2025 - Авг 2025",
-            project_description: "Платформа, предназначеная для поиска врачей и медучреждений. Реализованы страницы выбора врача и клиники, просмотр профилей, запись на приём, а также админ-панель с разделами для управления пользователями, врачами, приёмами и учреждениями. Участвовал в разработке клиентской части, где использовались React, JavaScript, TypeScript и Sass.",
+            project_description:
+                "Платформа, предназначеная для поиска врачей и медучреждений. Реализованы страницы выбора врача и клиники, просмотр профилей, запись на приём, а также админ-панель с разделами для управления пользователями, врачами, приёмами и учреждениями. Участвовал в разработке клиентской части, где использовались React, JavaScript, TypeScript и Sass.",
         },
         {
             id: 89,
@@ -1267,7 +1344,8 @@ const defaultState = {
             lang: "ua",
             project_name: "Prelit",
             duration_work: "Лип 2025 - Серп 2025",
-            project_description: "Платформа, призначена для пошуку лікарів та медустанов. Реалізовано сторінки вибору лікаря та клініки, перегляд профілів, запис на прийом, а також адмін-панель з розділами для управління користувачами, лікарями, прийомами та установами. Брав участь у розробці клієнтської частини, де використовувалися React, JavaScript, TypeScript та Sass.",
+            project_description:
+                "Платформа, призначена для пошуку лікарів та медустанов. Реалізовано сторінки вибору лікаря та клініки, перегляд профілів, запис на прийом, а також адмін-панель з розділами для управління користувачами, лікарями, прийомами та установами. Брав участь у розробці клієнтської частини, де використовувалися React, JavaScript, TypeScript та Sass.",
         },
         {
             id: 90,
@@ -1275,7 +1353,8 @@ const defaultState = {
             lang: "en",
             project_name: "Prelit",
             duration_work: "Jul 2025 - Aug 2025",
-            project_description: "Platform designed to connect medical providers. The system includes clinic and doctor listings, appointment booking, profile views, and an admin panel for managing users, providers, appointments, and institutions. I contributed to the frontend development, where used React, JavaScript, TypeScript, and Sass.",
+            project_description:
+                "Platform designed to connect medical providers. The system includes clinic and doctor listings, appointment booking, profile views, and an admin panel for managing users, providers, appointments, and institutions. I contributed to the frontend development, where used React, JavaScript, TypeScript, and Sass.",
         },
     ],
 };
