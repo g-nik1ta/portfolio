@@ -1,15 +1,16 @@
 import React from 'react';
 import "./Skills.scss";
-import { backendLogo, frontendLogo, othersLogo } from 'constants/skills';
+import { backendList, devToolsList, frontendList, othersList } from 'constants/skills';
 import SectionHead from 'components/SectionHead/SectionHead';
 import { useTranslation } from 'react-i18next';
 
 const Skills = () => {
     const { t } = useTranslation();
     const skillBoxes = [
-        { id: 1, title: 'Frontend', skills: frontendLogo },
-        { id: 2, title: 'Backend', skills: backendLogo },
-        { id: 3, title: 'Others', skills: othersLogo },
+        { id: 1, title: t('skills.boxes.frontend'), skills: frontendList },
+        { id: 2, title: t('skills.boxes.backend'), skills: backendList },
+        { id: 3, title: t('skills.boxes.devTools'), skills: devToolsList },
+        { id: 4, title: t('skills.boxes.others'), skills: othersList },
     ]
 
     return (

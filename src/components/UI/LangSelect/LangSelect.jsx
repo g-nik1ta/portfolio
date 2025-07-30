@@ -30,7 +30,7 @@ const LangSelect = () => {
         }
     }
 
-    const authHandler = (e) => {
+    const selectHandler = (e) => {
         setLangWindow(!langWindow)
         document.addEventListener('click', clickFunc)
     }
@@ -38,13 +38,14 @@ const LangSelect = () => {
     const updateLang = (code) => {
         i18n.changeLanguage(code);
         setLangWindow(false);
+        localStorage.setItem('i18nextLang', code);
     }
 
     return (
         <div className={'lang_wrapper' + (langWindow ? " open" : '')}>
             <MyButton
                 rectangle={true}
-                onClick={authHandler}
+                onClick={selectHandler}
             >
                 {i18n.language}
             </MyButton>

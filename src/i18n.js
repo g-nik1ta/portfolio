@@ -19,6 +19,7 @@ const resources = {
     },
 };
 
+const savedLang = localStorage.getItem('i18nextLang');
 const lng = "en";
 
 i18n
@@ -27,7 +28,7 @@ i18n
     .use(initReactI18next) // passes i18n down to react-i18next
     .init({
         resources,
-        lng, // default language
+        lng: savedLang || 'en', // default language
         detection: {
             checkWhitelist: true,
         },

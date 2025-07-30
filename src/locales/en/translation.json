@@ -1,7 +1,7 @@
 {
     "general": {
         "name": "Nikita Gonohov",
-        "copyright": "© 2024 Nikita Gonohov. All rights reserved."
+        "copyright": "© 2025 Nikita Gonohov. All rights reserved."
     },
     "nav": {
         "about": "About",
@@ -17,21 +17,30 @@
         "title": "Hi, I am",
         "subtitle": "I am a",
         "text": [
-            "I am a motivated and versatile individual, always ready to tackle new challenges.",
-            "With experience and confident skills as a Full Stack developer, I am capable of efficiently working on diverse projects. I am continuously developing and open to constructive criticism, which helps me to improve my skills.",
-            "My goal is not just to complete tasks, but to create high-quality projects in collaboration with a friendly and ambitious team. I strive for professionalism in my work and aim to achieve significant results in web development."
+            "I'm a goal-oriented Full Stack Developer with a strong focus on Frontend.",
+            "Experienced in building modern web applications using Vue, Laravel, and other technologies.",
+            "Comfortable working both independently and as part of a collaborative team — from architecture design to deployment.",
+            "Always striving to grow professionally, open to constructive feedback, and committed to writing clean, maintainable code.",
+            "My goal is not just to complete tasks, but to create thoughtful, scalable, and user-friendly solutions."
         ],
         "typewriter": [
-            "Programmer",
             "Full Stack Developer",
-            "Frontend Engineer"
+            "Frontend Engineer",
+            "Programmer",
+            "Pixel-Perfect Frontend Expert"
         ],
         "cv": "Check CV"
     },
     "skills": {
         "head": {
             "title": "Skills",
-            "subtitle": "Here are some of my skills that I've learned over the past 2 years."
+            "subtitle": "Here are some of my skills that I've learned over the past 3 years."
+        },
+        "boxes": {
+            "frontend": "Frontend",
+            "backend": "Backend",
+            "devTools": "Dev Tools",
+            "others": "Others"
         }
     },
     "experience": {

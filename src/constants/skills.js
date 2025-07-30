@@ -14,54 +14,85 @@ import WebpackLogo from 'svg/skills/frontend/WebpackLogo';
 import PhpLogo from 'svg/skills/backend/PhpLogo';
 import LaravelLogo from 'svg/skills/backend/LaravelLogo';
 import MySqlLogo from 'svg/skills/backend/MySqlLogo';
-import PhpMyAdminLogo from 'svg/skills/backend/PhpMyAdminLogo';
-import Firebase from 'svg/skills/backend/Firebase';
-import GitLogo from 'svg/skills/others/GitLogo';
-import NpmLogo from 'svg/skills/others/NpmLogo';
-import GitHubLogo from 'svg/skills/others/GitHubLogo';
-import DockerLogo from 'svg/skills/others/DockerLogo';
-import XamppLogo from 'svg/skills/others/XamppLogo';
+import PhpMyAdminLogo from 'svg/skills/devTools/PhpMyAdminLogo';
+import Firebase from 'svg/skills/others/Firebase';
+import GitLogo from 'svg/skills/devTools/GitLogo';
+import NpmLogo from 'svg/skills/devTools/NpmLogo';
+import GitHubLogo from 'svg/skills/devTools/GitHubLogo';
+import DockerLogo from 'svg/skills/devTools/DockerLogo';
+import XamppLogo from 'svg/skills/devTools/XamppLogo';
 import FigmaLogo from 'svg/skills/others/FigmaLogo';
 import AdobePhotoshopLogo from 'svg/skills/others/AdobePhotoshopLogo';
-import VsCodeLogo from 'svg/skills/others/VsCodeLogo';
+import VsCodeLogo from 'svg/skills/devTools/VsCodeLogo';
 import TrelloLogo from 'svg/skills/others/TrelloLogo';
 import NodeJS from 'svg/skills/backend/NodeJS';
 import ExpressJS from 'svg/skills/backend/ExpressJS';
+import PiniaLogo from 'svg/skills/frontend/PiniaLogo';
+import TailwindLogo from 'svg/skills/frontend/TailwindLogo';
+import ViteLogo from 'svg/skills/frontend/ViteLogo';
+import PostgreSqlLogo from 'svg/skills/backend/PostgreSqlLogo';
+import SqlLogo from 'svg/skills/backend/SqlLogo';
+import GitLubLogo from 'svg/skills/devTools/GitLubLogo';
+import PostmanLogo from 'svg/skills/devTools/PostmanLogo';
+import DBeaverLogo from 'svg/skills/devTools/DBeaverLogo';
+import JiraLogo from 'svg/skills/others/JiraLogo';
+import CpanelLogo from 'svg/skills/others/CpanelLogo';
+import MiroLogo from 'svg/skills/others/MiroLogo';
+import VercelLogo from 'svg/skills/others/VercelLogo';
 
-export const frontendLogo = [
-    { id: 1, svg: <HtmlLogo />, title: 'HTML' },
-    { id: 2, svg: <CssLogo />, title: 'CSS' },
+// 16
+export const frontendList = [
+    { id: 6, svg: <JSLogo />, title: 'Javascript' },
+    { id: 10, svg: <VueLogo />, title: 'Vue' },
+    { id: 14, svg: <PiniaLogo />, title: 'Pinia' },
     { id: 3, svg: <ReactLogo />, title: 'React' },
     { id: 4, svg: <ReduxLogo />, title: 'Redux' },
+    { id: 9, svg: <TypeScriptLogo />, title: 'Typescript' },
+    { id: 15, svg: <TailwindLogo />, title: 'Tailwind' },
+    { id: 12, svg: <VuetifyLogo />, title: 'Vuetify' },
+    { id: 1, svg: <HtmlLogo />, title: 'HTML' },
+    { id: 2, svg: <CssLogo />, title: 'CSS' },
     { id: 5, svg: <SassLogo />, title: 'Sass' },
-    { id: 6, svg: <JSLogo />, title: 'Javascript' },
+    { id: 16, svg: <ViteLogo />, title: 'Vite' },
+    { id: 11, svg: <VuexLogo />, title: 'Vuex' },
     { id: 7, svg: <JqueryLogo />, title: 'Jquery' },
     { id: 8, svg: <BootstrapLogo />, title: 'Bootstrap' },
-    { id: 9, svg: <TypeScriptLogo />, title: 'Typescript' },
-    { id: 10, svg: <VueLogo />, title: 'Vue' },
-    { id: 11, svg: <VuexLogo />, title: 'Vuex' },
-    { id: 12, svg: <VuetifyLogo />, title: 'Vuetify' },
     { id: 13, svg: <WebpackLogo />, title: 'Webpack' },
 ]
 
-export const backendLogo = [
-    { id: 7, svg: <NodeJS />, title: 'NodeJS' },
-    { id: 6, svg: <ExpressJS />, title: 'Express.js' },
+// 7
+export const backendList = [
     { id: 1, svg: <PhpLogo />, title: 'Php' },
     { id: 2, svg: <LaravelLogo />, title: 'Laravel' },
-    { id: 3, svg: <MySqlLogo />, title: 'MySQL' },
-    { id: 4, svg: <PhpMyAdminLogo />, title: 'Php my admin' },
-    { id: 5, svg: <Firebase />, title: 'Firebase' },
+    { id: 3, svg: <NodeJS />, title: 'NodeJS' },
+    { id: 4, svg: <PostgreSqlLogo />, title: 'PostgreSQL' },
+    { id: 5, svg: <MySqlLogo />, title: 'MySQL' },
+    { id: 6, svg: <SqlLogo />, title: 'SQL' },
+    { id: 7, svg: <ExpressJS />, title: 'Express.js' },
 ]
 
-export const othersLogo = [
+// 10
+export const devToolsList = [
     { id: 1, svg: <GitLogo />, title: 'Git' },
-    { id: 2, svg: <NpmLogo />, title: 'Npm' },
     { id: 3, svg: <GitHubLogo />, title: 'GitHub' },
+    { id: 7, svg: <GitLubLogo />, title: 'GitLub' },
+    { id: 2, svg: <NpmLogo />, title: 'Npm' },
+    { id: 10, svg: <DBeaverLogo />, title: 'DBeaver' },
+    { id: 9, svg: <PostmanLogo />, title: 'Postman' },
     { id: 4, svg: <DockerLogo />, title: 'Docker' },
     { id: 5, svg: <XamppLogo />, title: 'Xampp' },
-    { id: 6, svg: <FigmaLogo />, title: 'Figma' },
-    { id: 7, svg: <AdobePhotoshopLogo />, title: 'Adobe Photoshop' },
-    { id: 8, svg: <VsCodeLogo />, title: 'Visual Code' },
-    { id: 9, svg: <TrelloLogo />, title: 'Trello' },
+    { id: 6, svg: <VsCodeLogo />, title: 'Visual Code' },
+    { id: 8, svg: <PhpMyAdminLogo />, title: 'Php my admin' },
+]
+
+// 8
+export const othersList = [
+    { id: 5, svg: <JiraLogo />, title: 'Jira' },
+    { id: 4, svg: <TrelloLogo />, title: 'Trello' },
+    { id: 2, svg: <FigmaLogo />, title: 'Figma' },
+    { id: 7, svg: <MiroLogo />, title: 'Miro' },
+    { id: 3, svg: <AdobePhotoshopLogo />, title: 'Adobe Photoshop' },
+    { id: 6, svg: <CpanelLogo />, title: 'cPanel' },
+    { id: 1, svg: <Firebase />, title: 'Firebase' },
+    { id: 8, svg: <VercelLogo />, title: 'Vercel' },
 ]

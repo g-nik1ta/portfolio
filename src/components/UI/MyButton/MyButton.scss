@@ -10,7 +10,7 @@
     color: $color-blue;
     cursor: pointer;
     padding: 0px 20px;
-    transition: background-color 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
     background-color: transparent;
     width: fit-content;
     max-width: 300px;
@@ -23,6 +23,7 @@
         font-weight: 500;
         font-size: 16px;
         transition: inherit;
+        transition: color 0.3s ease-in-out 0s;
     }
 
     @media (hover: hover) {

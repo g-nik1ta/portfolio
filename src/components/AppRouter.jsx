@@ -4,9 +4,9 @@ import { publicRoutes, privateRoutes } from 'route';
 
 const AppRouter = ({ auth }) => {
     const location = useLocation();
-    useEffect(() => {
-        window.scrollTo({ top: 0 });
-    }, [location])
+    // useEffect(() => {
+    //     window.scrollTo({ top: 0 });
+    // }, [location])
 
 
     return (

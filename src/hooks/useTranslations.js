@@ -6,14 +6,14 @@ export const useTranslationDataArray = (arrayCommon, data_translations, language
     useEffect(() => {
         const translatedData = arrayCommon.map(arrItem => {
             const translation = data_translations.filter(item =>
-                item.id === arrItem.id && item.lang === language
+                item.companyId === arrItem.id && item.lang === language
             )[0] || {};
             return {
                 ...arrItem,
                 translation
             }
         })
-        setTranslatedArray(translatedData);
+        setTranslatedArray(translatedData.reverse());
     }, [arrayCommon, data_translations, language])
 
     return translatedArray;
@@ -24,7 +24,7 @@ export const useTranslationData = () => {
         const project = projectsCommon.find(item => item.id === currentProject);
         
         const translation = data_translations.filter(item =>
-            item.id === currentProject && item.lang === language
+            item.companyId === currentProject && item.lang === language
         )[0] || {};
 
         return {

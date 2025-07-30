@@ -27,9 +27,9 @@
                 }
             }
 
-            &:last-of-type {
-                flex: 0 1 100%;
-            }
+            // &:last-of-type {
+            //     flex: 0 1 100%;
+            // }
 
             .title {
                 font-size: 28px;
@@ -61,9 +61,9 @@
 
                     @media (hover: hover) {
                         &:hover {
-                            transform: scale(1.03);
+                            // transform: scale(1.03);
                             border: 1px solid rgb(162, 76, 243);
-                            color: rgba(162, 76, 243, .5);
+                            color: rgba(169, 87, 245, 0.5);
                         }
                     }
 

@@ -8,6 +8,7 @@ const MyButton = ({ children, active = false, rectangle, href, ...props }) => {
                 {...props}
                 href={href}
                 target='_blank'
+                rel='noreferrer'
                 className={
                     'my_button'
                     + (props.className ? ` ${props.className}` : "")

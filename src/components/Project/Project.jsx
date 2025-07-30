@@ -24,14 +24,14 @@ const Project = () => {
     const projectsCommon = useSelector(state => state.ProjectsReducer.projects);
     const projects_translations = useSelector(state => state.ProjectsReducer.projects_translations);
     const translationProjects = useTranslationDataArray(projectsCommon, projects_translations, i18n.language)
-    const [projects, setProjects] = useState(translationProjects.reverse());
+    const [projects, setProjects] = useState(translationProjects);
 
     useEffect(() => {
-        setProjects(translationProjects.reverse())
+        setProjects(translationProjects)
     }, [translationProjects])
 
 
-    const [sortProjects, setSortProjects] = useState(translationProjects.reverse());
+    const [sortProjects, setSortProjects] = useState(translationProjects);
 
     const [sort, setSort] = useState(-1);
     const sortHandler = (param) => {
@@ -65,17 +65,17 @@ const Project = () => {
     const [currentPagePagination, setCurrentPagePagintaion] = useState(1);
     const [isFirstRender, setIsFirstRender] = useState(true);
     const projectsRef = useRef()
-    useEffect(() => {
-        if (isFirstRender) {
-            setIsFirstRender(false)
-            return
-        }
+    // useEffect(() => {
+    //     if (isFirstRender) {
+    //         setIsFirstRender(false)
+    //         return
+    //     }
 
-        window.scrollTo({
-            top: projectsRef.current.offsetTop - 180,
-            behavior: "smooth"
-        });
-    }, [currentPagePagination])
+    //     window.scrollTo({
+    //         top: projectsRef.current.offsetTop - 180,
+    //         behavior: "smooth"
+    //     });
+    // }, [currentPagePagination])
 
     const [sortProjectsPaginate, setSortProjectsPaginate] = useState([]);
     useEffect(() => {

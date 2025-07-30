@@ -17,6 +17,10 @@
         padding: 16px 26px 20px;
     }
 
+    &.modal-project .modal {
+        max-width: 1000px;
+    }
+
     .modal {
         max-height: 100%;
         max-width: 800px;
