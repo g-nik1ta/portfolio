@@ -13,7 +13,7 @@ const Socials = () => {
             <a target='_blank' rel='noreferrer' href="https://instagram.com/n_e_k_1_t__"><Instagram /></a>
             <a target='_blank' rel='noreferrer' href="viber://chat/?number=%2B380996272218"><Viber /></a>
             <a target='_blank' rel='noreferrer' href="https://www.facebook.com/profile.php?id=100023637429068"><Facebook /></a>
-            <a target='_blank' rel='noreferrer' href="https://www.linkedin.com/in/%D0%BD%D1%96%D0%BA%D1%96%D1%82%D0%B0-%D0%B3%D0%BE%D0%BD%D0%BE%D1%85%D0%BE%D0%B2-64a193273/"><LinkedIn /></a>
+            <a target='_blank' rel='noreferrer' href="https://www.linkedin.com/in/nek1t/"><LinkedIn /></a>
         </div>
     )
 }
