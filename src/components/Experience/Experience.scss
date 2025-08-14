@@ -3,11 +3,17 @@
 .experience_section {
     .skills {
         display: flex;
+    }
 
+    .achievements {
+        margin-bottom: 24px;
+    }
+
+    .skills, .achievements {
         b {
             margin-right: 12px;
             font-size: 15px;
-            color: rgba(242, 243, 244, 0.6);
+            color: rgba(242, 243, 244, 0.65);
         }
 
         ul {

@@ -17,11 +17,8 @@
         "title": "Hi, I am",
         "subtitle": "I am a",
         "text": [
-            "I'm a goal-oriented Full Stack Developer with a strong focus on Frontend.",
-            "Experienced in building modern web applications using Vue, Laravel, and other technologies.",
-            "Comfortable working both independently and as part of a collaborative team — from architecture design to deployment.",
-            "Always striving to grow professionally, open to constructive feedback, and committed to writing clean, maintainable code.",
-            "My goal is not just to complete tasks, but to create thoughtful, scalable, and user-friendly solutions. I strive for professionalism in my work and aim to achieve significant results in web development."
+            "I am a goal-oriented Full Stack developer with an emphasis on Frontend. I work with Laravel (PHP), Vue and React (JS/TS), I have experience in creating ERP systems, CRM platforms, online stores and portals. I participated in projects with flexible architecture, CI/CD, microservice interaction and integration of third-party services.", 
+            "I feel comfortable both working alone and in a team - from design to deployment. I value clean code, constructive feedback and am constantly working on professional growth."
         ],
         "typewriter": [
             "Full Stack Developer",
@@ -47,7 +44,8 @@
         "head": {
             "title": "Experience",
             "subtitle": "My experience working as a web developer in various companies."
-        }
+        },
+        "achievements": "Achievements"
     },
     "projects": {
         "head": {
