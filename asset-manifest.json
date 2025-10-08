@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.3c063484.css",
-    "main.js": "/portfolio/static/js/main.032e3fd3.js",
+    "main.css": "/portfolio/static/css/main.14f669a1.css",
+    "main.js": "/portfolio/static/js/main.952893c5.js",
     "static/media/kyiv-realty.jpg": "/portfolio/static/media/kyiv-realty.9ac1c2467b6ea35a60c2.jpg",
     "static/media/mododomus.jpg": "/portfolio/static/media/mododomus.b20c173573fe749a368a.jpg",
     "static/media/spektrum.jpg": "/portfolio/static/media/spektrum.b0508a334f177bdea94a.jpg",
@@ -38,6 +38,7 @@
     "static/media/login-form.jpg": "/portfolio/static/media/login-form.60932a874c7aff8dd3d0.jpg",
     "static/media/animtaion-cubes.jpg": "/portfolio/static/media/animtaion-cubes.17bbf578a869571d5223.jpg",
     "static/media/react-to-do-list.jpg": "/portfolio/static/media/react-to-do-list.65c453090f9d2a5df4d0.jpg",
+    "static/media/trafficJet.jpg": "/portfolio/static/media/trafficJet.a9fb2378bfccc5470ff5.jpg",
     "static/media/cbs.svg": "/portfolio/static/media/cbs.4a7d78576a223b33d581.svg",
     "static/media/slick.svg": "/portfolio/static/media/slick.2630a3e3eab21c607e21.svg",
     "static/media/slick.eot": "/portfolio/static/media/slick.a4e97f5a2a64f0ab1323.eot",
@@ -45,11 +46,11 @@
     "static/media/slick.ttf": "/portfolio/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/portfolio/static/media/slick.295183786cd8a1389865.woff",
     "static/media/it_transformation.svg": "/portfolio/static/media/it_transformation.d9f08e921c687e815878.svg",
-    "main.3c063484.css.map": "/portfolio/static/css/main.3c063484.css.map",
-    "main.032e3fd3.js.map": "/portfolio/static/js/main.032e3fd3.js.map"
+    "main.14f669a1.css.map": "/portfolio/static/css/main.14f669a1.css.map",
+    "main.952893c5.js.map": "/portfolio/static/js/main.952893c5.js.map"
   },
   "entrypoints": [
-    "static/css/main.3c063484.css",
-    "static/js/main.032e3fd3.js"
+    "static/css/main.14f669a1.css",
+    "static/js/main.952893c5.js"
   ]
 }
