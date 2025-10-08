@@ -61,6 +61,28 @@ const defaultState = {
                 "Node.js",
             ],
         },
+        {
+            id: 4,
+            href: "https://www.instagram.com/traffic__jet/",
+            logo: "trafficJet.jpg",
+            logo_alt: "traffic-jet_logo",
+            job_title: "Full Stack developer",
+            company_name: "Traffic Jet",
+            skills: [
+                "JavaScript",
+                "Laravel",
+                "PHP",
+                "PostgreSQL",
+                "Vue",
+                "Pinia",
+                "TypeScript",
+                "Tailwind",
+                "Sass",
+                "Quasar",
+                "Vite",
+                "SQL",
+            ],
+        },
     ],
 
     companies_translations: [
@@ -136,7 +158,7 @@ const defaultState = {
             id: 7,
             companyId: 3,
             lang: "ru",
-            date: "Июнь 2024 — Все еще",
+            date: "Июнь 2024 — Сентябрь 2025",
             description:
                 "Как член большой международной команды, я работал над разработкой масштабной ERP-системы с гибкой архитектурой, использованием CI/CD и процессом code-review. Участвовал в ежедневных митингах с заказчиком и сотрудничал с другими командами, обеспечивая качественную интеграцию модулей и стабильность продукта. Также занимался поддержкой уже запущенных продуктов.",
             achievements: [
@@ -150,7 +172,7 @@ const defaultState = {
             id: 8,
             companyId: 3,
             lang: "ua",
-            date: "Червень 2024 - Досі",
+            date: "Червень 2024 - Вересень 2025",
             description:
                 "Як член великої міжнародної команди, я працював над розробкою масштабної ERP-системи з гнучкою архітектурою, використанням CI/CD та процесом code-review. Брав участь у щоденних мітингах із замовником та співпрацював з іншими командами, забезпечуючи якісну інтеграцію модулів і стабільність продукту. Також займався підтримкою вже запущених продуктів.",
             achievements: [
@@ -164,7 +186,7 @@ const defaultState = {
             id: 9,
             companyId: 3,
             lang: "en",
-            date: "June 2024 - Still",
+            date: "June 2024 - September 2025",
             description:
                 "As a member of a large international team, I worked on the development of a large-scale ERP system with a flexible architecture, using CI/CD and a code review process. Participated in daily meetings with the customer and collaborated with other teams, ensuring high-quality integration of modules and product stability. Also supported already launched products.",
             achievements: [
@@ -173,6 +195,31 @@ const defaultState = {
                 "Established effective interaction with other teams, which reduced the time of approval and integration.",
                 "Supported and improved several existing products, increasing their stability and performance.",
             ],
+        },
+
+        {
+            id: 10,
+            companyId: 4,
+            lang: "ru",
+            date: "Сентябрь 2025 - Все еще",
+            description: "",
+            achievements: [],
+        },
+        {
+            id: 11,
+            companyId: 4,
+            lang: "ua",
+            date: "Вересень 2025 - Досі",
+            description: "",
+            achievements: [],
+        },
+        {
+            id: 12,
+            companyId: 4,
+            lang: "en",
+            date: "September 2025 - Still",
+            description: "",
+            achievements: [],
         },
     ],
 };
