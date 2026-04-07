@@ -1,7 +1,9 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.14f669a1.css",
-    "main.js": "/portfolio/static/js/main.952893c5.js",
+    "main.js": "/portfolio/static/js/main.95f887ee.js",
+    "static/media/1.png": "/portfolio/static/media/1.1793ad3741217e1dca87.png",
+    "static/media/3.png": "/portfolio/static/media/3.6aeac708232e3bfee685.png",
     "static/media/kyiv-realty.jpg": "/portfolio/static/media/kyiv-realty.9ac1c2467b6ea35a60c2.jpg",
     "static/media/mododomus.jpg": "/portfolio/static/media/mododomus.b20c173573fe749a368a.jpg",
     "static/media/spektrum.jpg": "/portfolio/static/media/spektrum.b0508a334f177bdea94a.jpg",
@@ -13,6 +15,7 @@
     "static/media/premier-palace.jpg": "/portfolio/static/media/premier-palace.37ff26c31931117390ca.jpg",
     "static/media/5.jpg": "/portfolio/static/media/5.15ffdefd409a0cedb6b0.jpg",
     "static/media/react-web-shop.jpg": "/portfolio/static/media/react-web-shop.81c5147716df21c051d6.jpg",
+    "static/media/4.png": "/portfolio/static/media/4.f9e658672e94f374d3b8.png",
     "static/media/resume.jpg": "/portfolio/static/media/resume.a4e8ec987205e89c439f.jpg",
     "static/media/4.jpg": "/portfolio/static/media/4.a23f711fc04215aaaf75.jpg",
     "static/media/lavbet.jpg": "/portfolio/static/media/lavbet.43decdb39bb0eaf18336.jpg",
@@ -28,9 +31,11 @@
     "static/media/9.jpg": "/portfolio/static/media/9.26dff3a560cb8da9f574.jpg",
     "static/media/10.jpg": "/portfolio/static/media/10.864ccd867a9dbeab81fc.jpg",
     "static/media/neural-network.jpg": "/portfolio/static/media/neural-network.7dc88fff97ceac3fc7dd.jpg",
+    "static/media/5.png": "/portfolio/static/media/5.2918c2f9d80b4c2a6542.png",
     "static/media/avatar.jpg": "/portfolio/static/media/avatar.e74bd41ed7a87205a1ac.jpg",
     "static/media/weather-forecast.jpg": "/portfolio/static/media/weather-forecast.097bbf4595b5e8c9b0cc.jpg",
     "static/media/address-book.jpg": "/portfolio/static/media/address-book.86e3dca652ebcf1497e2.jpg",
+    "static/media/2.png": "/portfolio/static/media/2.154a4d07a3e5bc3777a5.png",
     "static/media/13.jpg": "/portfolio/static/media/13.da62fcde94e108451a97.jpg",
     "static/media/to-do-list.jpg": "/portfolio/static/media/to-do-list.2758f61cd92d88b54b78.jpg",
     "static/media/usermanagement.jpg": "/portfolio/static/media/usermanagement.4ad7bf79076d64b8f868.jpg",
@@ -47,10 +52,10 @@
     "static/media/slick.woff": "/portfolio/static/media/slick.295183786cd8a1389865.woff",
     "static/media/it_transformation.svg": "/portfolio/static/media/it_transformation.d9f08e921c687e815878.svg",
     "main.14f669a1.css.map": "/portfolio/static/css/main.14f669a1.css.map",
-    "main.952893c5.js.map": "/portfolio/static/js/main.952893c5.js.map"
+    "main.95f887ee.js.map": "/portfolio/static/js/main.95f887ee.js.map"
   },
   "entrypoints": [
     "static/css/main.14f669a1.css",
-    "static/js/main.952893c5.js"
+    "static/js/main.95f887ee.js"
   ]
 }
