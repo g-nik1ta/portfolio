@@ -203,7 +203,7 @@ const defaultState = {
             id: 10,
             companyId: 4,
             lang: "ru",
-            date: "Сентябрь 2025 - Все еще",
+            date: "Сентябрь 2025 - Август 2026",
             description:
                 "Разрабатывал и поддерживал веб-платформу в сфере Affiliate (iGaming), ориентированную на создание и управление PWA-приложениями. Основной фокус - разработка админ-панели с широким функционалом: управление доменами, лендингами, push-уведомлениями, доступами и аналитикой. Участвовал как во фронтенд, так и в бэкенд разработке, проектировании архитектуры и интеграциях с внешними сервисами. Также взаимодействовал с пользователями продукта, помогая решать технические вопросы и повышать стабильность системы.",
             achievements: [
@@ -218,7 +218,7 @@ const defaultState = {
             id: 11,
             companyId: 4,
             lang: "ua",
-            date: "Вересень 2025 - Досі",
+            date: "Вересень 2025 - Серпень 2026",
             description:
                 "Розробляв та підтримував веб-платформу у сфері Affiliate (iGaming), орієнтовану на створення та управління PWA-додатками. Основний фокус – розробка адмін-панелі з широким функціоналом: управління доменами, лендингами, push-повідомленнями, доступами та аналітикою. Брав участь як у фронтенді, так і в бекенді розробці, проектуванні архітектури та інтеграціях із зовнішніми сервісами. Також взаємодіяв із користувачами продукту, допомагаючи вирішувати технічні питання та підвищувати стабільність системи.",
             achievements: [
@@ -233,7 +233,7 @@ const defaultState = {
             id: 12,
             companyId: 4,
             lang: "en",
-            date: "September 2025 - Still",
+            date: "September 2025 - August 2026",
             description:
                 "Developed and supported a web platform in the Affiliate (iGaming) sector, focused on creating and managing PWA applications. The primary focus was developing an admin panel with extensive functionality: managing domains, landing pages, push notifications, access, and analytics. Participated in both front-end and back-end development, architecture design, and integration with external services. I also interacted with product users, helping resolve technical issues and improve system stability.",
             achievements: [
