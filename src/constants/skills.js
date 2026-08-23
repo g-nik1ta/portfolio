@@ -39,35 +39,40 @@ import JiraLogo from 'svg/skills/others/JiraLogo';
 import CpanelLogo from 'svg/skills/others/CpanelLogo';
 import MiroLogo from 'svg/skills/others/MiroLogo';
 import VercelLogo from 'svg/skills/others/VercelLogo';
+import NuxtLogo from 'svg/skills/frontend/Nuxt';
+import TelegramLogo from 'svg/skills/others/TelegramLogo';
+import MariaDB from 'svg/skills/backend/MariaDB';
 
 // 16
 export const frontendList = [
-    { id: 6, svg: <JSLogo />, title: 'Javascript' },
     { id: 10, svg: <VueLogo />, title: 'Vue' },
     { id: 14, svg: <PiniaLogo />, title: 'Pinia' },
+    { id: 15, svg: <TailwindLogo />, title: 'Tailwind' },
+    { id: 6, svg: <JSLogo />, title: 'Javascript' },
+    { id: 9, svg: <TypeScriptLogo />, title: 'Typescript' },
+    { id: 17, svg: <NuxtLogo />, title: 'Nuxt' },
     { id: 3, svg: <ReactLogo />, title: 'React' },
     { id: 4, svg: <ReduxLogo />, title: 'Redux' },
-    { id: 9, svg: <TypeScriptLogo />, title: 'Typescript' },
-    { id: 15, svg: <TailwindLogo />, title: 'Tailwind' },
     { id: 12, svg: <VuetifyLogo />, title: 'Vuetify' },
     { id: 1, svg: <HtmlLogo />, title: 'HTML' },
     { id: 2, svg: <CssLogo />, title: 'CSS' },
-    { id: 5, svg: <SassLogo />, title: 'Sass' },
     { id: 16, svg: <ViteLogo />, title: 'Vite' },
+    { id: 5, svg: <SassLogo />, title: 'Sass' },
+    { id: 13, svg: <WebpackLogo />, title: 'Webpack' },
     { id: 11, svg: <VuexLogo />, title: 'Vuex' },
     { id: 7, svg: <JqueryLogo />, title: 'Jquery' },
     { id: 8, svg: <BootstrapLogo />, title: 'Bootstrap' },
-    { id: 13, svg: <WebpackLogo />, title: 'Webpack' },
 ]
 
 // 7
 export const backendList = [
-    { id: 1, svg: <PhpLogo />, title: 'Php' },
     { id: 2, svg: <LaravelLogo />, title: 'Laravel' },
-    { id: 3, svg: <NodeJS />, title: 'NodeJS' },
+    { id: 1, svg: <PhpLogo />, title: 'Php' },
     { id: 4, svg: <PostgreSqlLogo />, title: 'PostgreSQL' },
     { id: 5, svg: <MySqlLogo />, title: 'MySQL' },
+    { id: 8, svg: <MariaDB />, title: 'MariaDB' },
     { id: 6, svg: <SqlLogo />, title: 'SQL' },
+    { id: 3, svg: <NodeJS />, title: 'NodeJS' },
     { id: 7, svg: <ExpressJS />, title: 'Express.js' },
 ]
 
@@ -89,6 +94,7 @@ export const devToolsList = [
 export const othersList = [
     { id: 5, svg: <JiraLogo />, title: 'Jira' },
     { id: 4, svg: <TrelloLogo />, title: 'Trello' },
+    { id: 9, svg: <TelegramLogo />, title: 'Telegram bot' },
     { id: 2, svg: <FigmaLogo />, title: 'Figma' },
     { id: 7, svg: <MiroLogo />, title: 'Miro' },
     { id: 3, svg: <AdobePhotoshopLogo />, title: 'Adobe Photoshop' },
