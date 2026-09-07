@@ -1394,7 +1394,7 @@ const defaultState = {
             companyId: 33,
             lang: "ru",
             project_name: "Appify",
-            duration_work: "Сент 2025 - Все еще",
+            duration_work: "Сент 2025 - Авг 2026",
             project_description:
                 "Платформа для создания и управления PWA-приложениями в сфере iGaming. Я участвовал в разработке и развитии админ-панели, где реализованы инструменты для управления доменами, лендингами, push-уведомлениями, доступами и настройками приложений. Разрабатывал функционал предпросмотра (включая эмуляцию страницы Google Play) с динамическим обновлением данных в реальном времени. Также участвовал в интеграции с внешними сервисами и доработке серверной логики, включая работу с базой данных и автоматизацию процессов. Основной упор делался на разработку интерфейсов, улучшение UX и стабильное взаимодействие с API.",
         },
@@ -1403,7 +1403,7 @@ const defaultState = {
             companyId: 33,
             lang: "ua",
             project_name: "Appify",
-            duration_work: "Вер 2025 - Досі",
+            duration_work: "Вер 2025 - Серп 2026",
             project_description:
                 "Платформа для створення та управління PWA-додатками у сфері iGaming. Я брав участь у розробці та розвитку адмін-панелі, де реалізовані інструменти для управління доменами, лендингами, push-повідомленнями, доступами та налаштуваннями додатків. Розробляв функціонал перегляду (включаючи емуляцію сторінки Google Play) з динамічним оновленням даних у реальному часі. Також брав участь в інтеграції із зовнішніми сервісами та доопрацюванні серверної логіки, включаючи роботу з базою даних та автоматизацію процесів. Основний упор робився на розробку інтерфейсів, покращення UX та стабільну взаємодію з API.",
         },
@@ -1412,7 +1412,7 @@ const defaultState = {
             companyId: 33,
             lang: "en",
             project_name: "Appify",
-            duration_work: "Sep 2025 - Still",
+            duration_work: "Sep 2025 - Aug 2026",
             project_description:
                 "A platform for creating and managing PWA applications in the iGaming industry. I participated in the development and enhancement of the admin panel, which includes tools for managing domains, landing pages, push notifications, access rights, and app settings. I developed preview functionality (including Google Play page emulation) with dynamic data updates in real time. I also participated in integration with external services and refined server logic, including database management and process automation. The main focus was on interface development, UX improvements, and stable API interaction.",
         },

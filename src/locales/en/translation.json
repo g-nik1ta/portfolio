@@ -17,14 +17,16 @@
         "title": "Hi, I am",
         "subtitle": "I am a",
         "text": [
-            "I am a goal-oriented Full Stack developer with an emphasis on Frontend. I work with Laravel (PHP), Vue and React (JS/TS), I have experience in creating ERP systems, CRM platforms, online stores and portals. I participated in projects with flexible architecture, CI/CD, microservice interaction and integration of third-party services.", 
-            "I feel comfortable both working alone and in a team - from design to deployment. I value clean code, constructive feedback and am constantly working on professional growth."
+            "Full Stack Developer with commercial development experience in Laravel/PHP, Vue, and React. Worked on ERP systems, PWA platforms, and admin panels. Experienced with PostgreSQL, REST API, third-party service integrations, CI/CD, and production support.",
+            "Actively using AI tools in the development workflow for analysis, debugging, refactoring, and implementing complex tasks.",
+            "Comfortable working both independently and as part of a team – from architecture design to deployment."
         ],
         "typewriter": [
             "Full Stack Developer",
             "Frontend Engineer",
+            "PHP Developer",
             "Programmer",
-            "Pixel-Perfect Frontend Expert"
+            "Web Development Expert"
         ],
         "cv": "Check CV"
     },

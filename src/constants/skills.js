@@ -42,6 +42,8 @@ import VercelLogo from 'svg/skills/others/VercelLogo';
 import NuxtLogo from 'svg/skills/frontend/Nuxt';
 import TelegramLogo from 'svg/skills/others/TelegramLogo';
 import MariaDB from 'svg/skills/backend/MariaDB';
+import CopilotLogo from 'svg/skills/devTools/CopilotLogo';
+import ChatGPT from 'svg/skills/devTools/ChatGPT';
 
 // 16
 export const frontendList = [
@@ -78,6 +80,8 @@ export const backendList = [
 
 // 10
 export const devToolsList = [
+    { id: 11, svg: <CopilotLogo />, title: 'Copilot' },
+    { id: 12, svg: <ChatGPT />, title: 'ChatGPT' },
     { id: 1, svg: <GitLogo />, title: 'Git' },
     { id: 3, svg: <GitHubLogo />, title: 'GitHub' },
     { id: 7, svg: <GitLubLogo />, title: 'GitLub' },
